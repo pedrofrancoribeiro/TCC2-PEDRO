@@ -1,7 +1,7 @@
 \select@language {brazil}
-\contentsline {chapter}{Lista de Tabelas}{ii}
-\contentsline {chapter}{Lista de Figuras}{iv}
-\contentsline {chapter}{Lista de C\'{o}digos}{iv}
+\contentsline {chapter}{Lista de Tabelas}{vi}
+\contentsline {chapter}{Lista de Figuras}{viii}
+\contentsline {chapter}{Lista de C\'{o}digos}{viii}
 \contentsline {chapter}{\numberline {1}Exemplo}{1}
 \contentsline {section}{\numberline {1.1}Tabela com o Pacote Booktabs}{1}
 \contentsline {section}{\numberline {1.2}Inser\c c\~ao de Figuras}{1}
