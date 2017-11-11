@@ -3,3 +3,4 @@
 \contentsline {chapter}{Lista de Figuras}{viii}
 \contentsline {chapter}{Lista de C\'{o}digos}{viii}
 \contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}
+\contentsline {chapter}{\numberline {2}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{2}
