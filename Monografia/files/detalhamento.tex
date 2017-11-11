@@ -1,0 +1,791 @@
+%quadro 1
+\begin{quadro}[H]
+	\centering
+	\caption{Caso de Uso CDU01 - Cadastrar Usuário}
+
+	\begin{framed}
+		\textbf{Caso de Uso CDU01: Cadastrar Usuário}\\
+		\begin{flushleft}
+		\textbf{Escopo:} Aplicação Web LabInstru\\
+		\textbf{Ator principal:} Administrador\\
+		\textbf{Interessados e Interesses:}
+		\begin{itemize}
+			\item[-] Administrador: Deseja cadastrar novos usuários no sistema.
+		\end{itemize}
+		\textbf{Pré-condições:}\\
+			 \begin{enumerate}
+			 	\item{Administrador precisa estar autenticado no sistema.}
+			 	\item{Ser um usuário administrador.}
+			 \end{enumerate}
+		\textbf{Pós-condições (Garantia de Sucesso):}
+			\begin{itemize}
+				\item[-] Criação da conta do usuário.
+			\end{itemize}
+		\textbf{Cenário de Sucesso Principal (ou Fluxo Básico):}\\
+			\begin{enumerate}
+			 	\item{O administrador escolherá a opção \textit{``Cadastrar usuário''} na aba \textit{``Administração''} do menu principal da aplicação.}
+			 	\item{O Sistema exibirá um formulário de cadastro de novo usuário que deve ser preenchido pelo administrador.}
+			 	\item O administrador do sistema informará os seguintes dados do usuário a ser cadastrado: nome, sobrenome, e-mail.
+			 	\item{O sistema irá criar automaticamente uma senha para o usuário. Esta senha é gerada de maneira aleatória e composta por 6 dígitos numéricos.}
+			 	\item{O sistema efetivará a criação da conta do usuário.}
+			 	\item{O sistema exibirá ao administrador a mensagem: \textit{``Usuário cadastrado com sucesso''}.}
+			 	\item{O sistema automaticamente enviará um e-mail ao usuário, informando os seus respectivos dados para acesso ao sistema.}
+			 \end{enumerate}
+
+		\textbf{Extensões (ou Fluxo Alternativo):}
+		\begin{itemize}
+			\item[a)] \textbf{Campos obrigatórios não preenchidos:} Caso algum campo do formulário de cadastro de novo usuário não tenha sido preenchido, o sistema notificará o administrador, informando-lhe os campos que não foram preenchidos.
+			\item[b)] \textbf{Conta de usuário já registrada:} Caso o administrador informe um e-mail que já esteja associado a um usuário existente no sistema, será emitida uma mensagem de alerta: \textit{``Esse e-mail já possui uma conta associada''}.
+			\item[c)] \textbf{Formato de e-mail inválido:} Caso o administrador informe um e-mail que não siga um padrão válido de e-mail, o sistema emitirá a mensagem: \textit{``E-mail Inválido''}.
+		\end{itemize}
+		\end{flushleft}
+	\end{framed}
+\end {quadro} % fim quadro 1
+
+%quadro 2
+\begin{quadro}[H]
+	\centering
+	\caption{Caso de Uso CDU02 - Listar Usuários}
+
+	\begin{framed}
+
+		\textbf{Caso de Uso CDU02: Listar Usuários}\\
+		\begin{flushleft}
+		\textbf{Escopo:} Aplicação Web LabInstru\\
+		\textbf{Ator principal:} Administrador\\
+		\textbf{Interessados e Interesses:}
+		\begin{itemize}
+			\item[-] Administrador: Deseja visualizar uma lista contendo os usuários cadastrados no sistema.
+		\end{itemize}
+		\textbf{Pré-condições:}\\
+			 \begin{enumerate}
+			 	\item{Administrador precisa estar autenticado no sistema.}
+			 	\item{Ser um usuário administrador.}
+			 \end{enumerate}
+		\textbf{Pós-condições (Garantia de Sucesso):}
+		\begin{itemize}
+			\item[-] É apresentada uma listagem contendo os usuários do sistema, ordenados a partir dos respectivos endereços de e-mail.
+			\item[-] Esta listagem contempla os nomes, sobrenomes e e-mails dos usuários.
+			\item[-] Ao lado de cada registro de usuário cadastrado encontram-se as opções de editar e excluir usuário.
+		\end{itemize}
+		\textbf{Cenário de Sucesso Principal (ou Fluxo Básico):}\\
+			\begin{enumerate}
+			 	\item{O administrador escolherá a opção \textit{``Listar usuários''} na aba \textit{``Administração''} do menu principal da aplicação.}
+			 	\item{O sistema exibirá o resultado da pesquisa na forma de uma lista de usuários.}
+			 \end{enumerate}
+
+		\textbf{Extensões (ou Fluxo Alternativo):}
+		\begin{itemize}
+			\item[a)] \textbf{Nenhum registro encontrado:} Não foram encontrados  usuários previamente cadastrados no sistema. Será emitida a mensagem: \textit{``Não há usuários cadastrados.''}.
+		\end{itemize}
+
+		\end{flushleft}
+
+	\end{framed}
+
+\end {quadro} % fim quadro 2
+
+% quadro 3
+\begin{quadro}[H]
+	\centering
+	\caption{Caso de Uso CDU03 - Editar Usuário}
+
+	\begin{framed}
+		\textbf{Caso de Uso CDU03: Editar Usuário}\\
+		\begin{flushleft}
+		\textbf{Escopo:} Aplicação Web LabInstru\\
+		\textbf{Ator principal:} Administrador\\
+		\textbf{Interessados e Interesses:}
+		\begin{itemize}
+			\item[-] Administrador: Deseja editar um registro de um usuário previamente cadastrado no sistema.
+		\end{itemize}
+		\textbf{Pré-condições:}\\
+			 \begin{enumerate}
+			 	\item{Administrador precisa estar autenticado no sistema.}
+			 	\item{Ser um usuário administrador.}
+			 	\item{Ter listado os usuários (vide Caso de Uso CDU02 - Listar Usuários).}
+			 \end{enumerate}
+		\textbf{Pós-condições (Garantia de Sucesso):}
+		\begin{itemize}
+			\item[-] Edição realizada no registro de um determinado usuário.
+		\end{itemize}
+
+		\textbf{Cenário de Sucesso Principal (ou Fluxo Básico):}\\
+			\begin{enumerate}
+				\item{Na linha referente ao usuário que será feita a edição de seu registro, clicar na opção \textit{``Editar usuário''} que é representada pelo ícone  de um lápis.}
+				\item{Um formulário de edição dos dados do respectivo usuário será apresentado, exibindo todos os campos passíveis de edição. }
+				\item{O Administrador modificará os campos que julgar necessário e clicará no botão \textit{``Editar''}.}
+				\item{O sistema registrará as modificações e emitirá a mensagem: \textit{``Usuário editado com suceeso''}.}
+			 \end{enumerate}
+
+			 \textbf{Regras de negócios:}
+		\begin{itemize}
+			\item[] \textbf{RN01 - } O formulário de edição do usuário não apresentará o campo \textit{``Senha''}.
+			\item[] \textbf{RN02 - } O formulário de edição do usuário apresentará o campo \textit{``E-mail''}, mas este não poderá ser modificado.
+		\end{itemize}
+
+		\end{flushleft}
+
+	\end{framed}
+
+\end {quadro} % fim quadro 3
+
+% quadro 4
+\begin{quadro}[H]
+	\centering
+	\caption{Caso de Uso CDU04 - Excluir Usuário}
+
+	\begin{framed}
+
+		\textbf{Caso de Uso CDU04: Excluir Usuário}\\
+
+		\begin{flushleft}
+
+		\textbf{Escopo:} Aplicação Web LabInstru\\
+
+		\textbf{Ator principal:} Administrador\\
+
+		\textbf{Interessados e Interesses:}
+		\begin{itemize}
+			\item[-] Administrador: Deseja excluir o registro de um usuário previamente cadastrado no sistema.
+		\end{itemize}
+
+		\textbf{Pré-condições:}\\
+			 \begin{enumerate}
+			 	\item{Administrador precisa estar autenticado no sistema.}
+			 	\item{Ser um usuário administrador.}
+			 	\item{Ter listado os usuários (vide Caso de Uso CDU02 - Listar Usuários).}
+			 \end{enumerate}
+
+		\textbf{Pós-condições (Garantia de Sucesso):}
+		\begin{itemize}
+			\item[-] Exclusão de um registro de usuário do banco de dados do sistema.
+		\end{itemize}
+
+
+		\textbf{Cenário de Sucesso Principal (ou Fluxo Básico):}\\
+			\begin{enumerate}
+				\item{Na linha referente ao usuário que será excluído do sistema, clicar na opção \textit{excluir usuário} que é representada pelo ícone referente a letra \textit{``X''}.}
+				\item{Quando clica-se no ícone de exclusão, uma mensagem de confirmação é exibida: \textit{``Deseja excluir o usuário?''} . }
+				\item{Caso o administrador confirme a exclusão, o sistema processará a exclusão e emitirá a mensagem: \textit{``Usuário excluído com sucesso''}.}
+			 \end{enumerate}
+
+		\textbf{Extensões (ou Fluxo Alternativo):}
+		\begin{itemize}
+			\item[a)] \textbf{Negação na mensagem de exclusão de usuário:} Caso o usuário responda não para a pergunta \textit{``Deseja excluir o usuário?''}, o sistema abortará o processo de exclusão e o redirecionará para página contendo a listagem dos usuários.
+		\end{itemize}
+
+		\end{flushleft}
+
+	\end{framed}
+
+\end {quadro} % fim quadro 4
+
+% figura 2
+
+
+%quadro 5
+\begin{quadro}[H]
+	\centering
+	\caption{Caso de Uso CDU05 - Redefinir Senha}
+
+	\begin{framed}
+
+		\textbf{Caso de Uso CDU05: Redefinir Senha}\\
+
+		\begin{flushleft}
+
+		\textbf{Escopo:} Aplicação Web LabInstru\\
+
+		\textbf{Ator principal:} Usuário\\
+
+		\textbf{Interessados e Interesses:}
+		\begin{itemize}
+			\item[-] Usuário: Deseja redefinir sua senha utilizada no processo de autenticação do sistema.
+		\end{itemize}
+
+		\textbf{Pré-condições:}\\
+			 \begin{enumerate}
+			 	\item{Usuário precisa estar autenticado no sistema.}
+			 \end{enumerate}
+
+		\textbf{Pós-condições (Garantia de Sucesso):} A senha do usuário é redefinida.\\
+
+		\textbf{Cenário de Sucesso Principal (ou Fluxo Básico):}\\
+			\begin{enumerate}
+			 	\item{O usuário escolherá a opção \textit{``Redefinir senha''} na aba correspondente ao seu \textit{``nome de usuário''}, contida no menu principal da aplicação.}
+			 	\item{O Sistema redirecionará o usuário para a página referente a troca de senha, onde será mostrado um formulário para redefinição de senha.}
+			 	\item{No formulário apresentado, o usuário informará a senha atual (senha atual), a nova senha (nova senha) e a verificação da nova senha (Verifica senha).}
+			 	\item{Com todos os campos preenchidos corretamente, o usuário clicará no botão:\textit{``Redefinir Senha''}.}
+			 	\item{Após o envio, o sistema processará a solicitação da redefinição de senha e o redirecionará para a tela de login.}
+			 \end{enumerate}
+
+		\textbf{Extensões (ou Fluxo Alternativo):}
+		\begin{itemize}
+			\item[a)] \textbf{Campos obrigatórios não preenchidos:} Caso algum campo obrigatório do formulário de redefinição de senha não tenha sido preenchido (senha atual, nova senha, confirmação de nova senha), o sistema notificará o usuário, informando-lhe os campos que não foram preenchidos.
+			\item[b)] \textbf{Senha atual não corresponde com a senha cadastrada:} Caso o usuário informe, no campo \textit{senha atual} do formulário de redefinição de senha, uma senha que não coincida com a senha cadastrada no sistema, o sistema deverá emitir a mensagem: \textit{``Senha atual não corresponde a senha cadastrada no sistema ''}.
+			\item[c)] \textbf{Nova senha e confirmação de nova senha não coincidem:} Caso o usuário preencha o campo \textit{``confirmação de nova senha''} com um valor diferente da informada no campo \textit{``nova senha''}, o sistema emitirá a mensagem: \textit{``Senhas informadas não coincidem''}.
+		\end{itemize}
+
+		%\textbf{Regras de negócios:} Exibir as regras de negócios\\
+
+		\end{flushleft}
+
+	\end{framed}
+
+\end {quadro} % fim quadro 5
+
+%quadro 6
+\begin{quadro}[H]
+	\centering
+	\caption{Caso de Uso CDU06 - Alterar Perfil}
+
+	\begin{framed}
+
+		\textbf{Caso de Uso CDU06: Alterar Perfil}\\
+
+		\begin{flushleft}
+
+		\textbf{Escopo:} Aplicação Web LabInstru\\
+
+		\textbf{Ator principal:} Usuário\\
+
+		\textbf{Interessados e Interesses:}
+		\begin{itemize}
+			\item[-] Usuário: Deseja efetuar a redefinição dos seus dados de perfil, que contemplam nome, sobrenome e e-mail.
+		\end{itemize}
+
+		\textbf{Pré-condições:}\\
+			 \begin{enumerate}
+			 	\item{Usuário necessita estar autenticado no sistema.}
+			 \end{enumerate}
+
+		\textbf{Pós-condições (Garantia de Sucesso):} O perfil do usuário é redefinido e o mesmo é redirecionado para a tela de login.\\
+
+		\textbf{Cenário de Sucesso Principal (ou Fluxo Básico):}\\
+			\begin{enumerate}
+			 	\item{O usuário escolherá a opção \textit{``Alterar perfil''} na aba correspondente ao seu \textit{``nome de usuário''}, contida no menu principal da aplicação.}
+			 	\item{O Sistema redirecionará o usuário para a página referente à edição de perfil, onde será mostrado um formulário para modificação de perfil com os seguintes campos: nome, sobrenome e e-mail, preenchidos com os valores previamente cadastrados no sistema.}
+			 	\item{O usuário modificará os campos que julgar necessário e clicará no botão:\textit{``Alterar perfil''}.}
+			 \end{enumerate}
+
+		\textbf{Extensões (ou Fluxo Alternativo):}
+		\begin{itemize}
+			\item[a)] \textbf{Campos obrigatórios não preenchidos:} Caso algum campo obrigatório do formulário de modificação de perfil não tenha sido preenchido, após clicar no botão \textit{``Alterar perfil''}, o sistema notificará o usuário informando quais campos não foram preenchidos com a seguinte mensagem \textit{``Campos obrigatórios não preenchidos''}.
+			\item[b)] \textbf{Formato de e-mail inválido:} Caso o usuário informe um e-mail que não siga um padrão válido de e-mail, o sistema emitirá a mensagem \textit{``E-mail inválido''}.
+			\item[c)] \textbf{E-mail já cadastrado:} Caso o usuário informe um e-mail que esteja associado a outro usuário, a modificação no perfil não será realizada e a seguinte mensagem será exibida: \emph{``E-mail associado a outro usuário''}.
+		\end{itemize}
+
+		%\textbf{Regras de negócios:} Exibir as regras de negócios\\
+
+		\end{flushleft}
+
+	\end{framed}
+
+\end {quadro} % fim quadro 6
+
+%quadro 7
+\begin{quadro}[H]
+	\centering
+	\caption{Caso de Uso CDU07 - Recuperar Senha}
+
+	\begin{framed}
+
+		\textbf{Caso de Uso CDU07: Recuperar Senha}\\
+
+		\begin{flushleft}
+
+		\textbf{Escopo:} Aplicação Web LabInstru\\
+
+		\textbf{Ator principal:} Usuário\\
+
+		\textbf{Interessados e Interesses:}
+		\begin{itemize}
+			\item[-] Usuário: Deseja redefinir sua senha e ter acesso novamente ao sistema, caso tenha esquecido da mesma.
+		\end{itemize}
+
+		\textbf{Pré-condições:}\\
+			 \begin{enumerate}
+			 	\item{O usuário não estará autenticado no sistema e estará na tela de login.}
+			 \end{enumerate}
+
+		\textbf{Pós-condições (Garantia de Sucesso):}
+		\begin{itemize}
+			\item[-] Será enviado ao usuário uma mensagem por email, informando-lhe a nova senha.
+			\item[-] Essa nova senha, será gerada automaticamente pelo sistema e conterá no mínimo 8 caracteres aleatórios.
+		\end{itemize}
+
+		\textbf{Cenário de Sucesso Principal (ou Fluxo Básico):}\\
+			\begin{enumerate}
+			 	\item{O usuário estando na tela de login, clicará na aba \textit{``Login''} e escolherá a opção \textit{``Esqueci minha senha''}.}
+			 	\item{O Sistema redirecionará o usuário para a página referente à recuperação de senha e será apresentado um formulário de recuperação de senha, solicitando que seja preenchido o campo \textit{``E-mail cadastrado''} para recuperação de senha.}
+			 	\item{Clicar no botão:\textit{``Recuperar senha''}.}
+			 	\item{O sistema processará a solicitação e enviará uma nova senha para o e-mail do usuário.}
+			 \end{enumerate}
+
+		\textbf{Extensões (ou Fluxo Alternativo):}
+		\begin{itemize}
+			\item[a)] \textbf{Campo não preenchido:} Caso o campo \textit{``E-mail''}, do formulário de recuperação de senha, não tenha sido preenchido, após clicar no botão \textit{``Recuperar senha''}, o sistema notificará o usuário com a mensagem \textit{``Campo e-mail não preenchido''}, informando-o que o campo não foi preenchido.
+			\item[b)] \textbf{Formato de e-mail inválido:} Caso o usuário informe um e-mail que não siga um padrão válido de e-mail, o sistema emitirá a mensagem \textit{``E-mail inválido''}.
+			\item[b)] \textbf{E-mail não cadastrado:} Caso o usuário informe um e-mail que não esteja associado a nenhum usuário no sistema, será exibida a seguinte mensagem: \emph{``Não há usuário associado a este e-mail no sistema''}.
+		\end{itemize}
+
+		%\textbf{Regras de negócios:} Exibir as regras de negócios\\
+
+		\end{flushleft}
+
+	\end{framed}
+
+\end {quadro} % fim quadro 7
+
+
+
+%quadro 8
+\begin{quadro}[H]
+	\centering
+	\caption{Caso de Uso CDU08 - Consultar Medições}
+
+	\begin{framed}
+
+		\textbf{Caso de Uso CDU08: Consultar Medições}\\
+
+		\begin{flushleft}
+
+		\textbf{Escopo:} Aplicação Web LabInstru\\
+
+		\textbf{Ator principal:} Usuário\\
+
+		\textbf{Interessados e Interesses:}
+		\begin{itemize}
+			\item[-] Usuário: Deseja visualizar uma lista contendo os registros de uma determinada estação meteorológica.
+		\end{itemize}
+
+		\textbf{Pré-condições:}\\
+			 \begin{enumerate}
+			 	\item{Usuário necessita estar autenticado no sistema.}
+			 \end{enumerate}
+
+		\textbf{Pós-condições (Garantia de Sucesso):}
+		\begin{itemize}
+			\item[-] É apresentada uma listagem com os dados referente à pesquisa  solicitada.
+		\end{itemize}
+
+		\textbf{Cenário de Sucesso Principal (ou Fluxo Básico):}\\
+			\begin{enumerate}
+				\item{O usuário iniciará escolhendo no menu principal da aplicação a opção \textit{``Medições''}.}
+				\item{Será aberto um menu dropdown exibindo as estações meteorológica possiveis para a realização de uma determinada funcionalidade.}
+				\item{Clique na estação meteorológica específica (Baixa 1 ou Baixa 2), e escolha no próximo menu dropdown que será exibido, a funcionalidade \textit{``Consultar''}.}
+			 	\item O usuário poderá informar um intervalo entre datas para a consulta.
+			 	\item O usuário selecionará zero ou mais campos de pesquisa. Os campos de pesquisa possíveis são:
+				\begin{enumerate}
+					\item Baixa 1: {dia\_hora, record, batt\_volt\_min, p\_temp, nr\_lite\_avg, cm3\_up\_avg, cm3\_dn\_avg, cg3\_up\_corr\_avg, cg3\_dn\_corr\_avg, cnr1\_tc\_avg, cma11\_up\_avg, cma11\_dn\_avg, li\_190s\_avg, vw\_avg, hfp01\_avg, stp01\_50cm\_avg, stp01\_20cm\_avg, stp01\_10cm\_avg, stp01\_05cm\_avg, stp01\_02cm\_avg, cs106\_avg, hmp45c\_temp\_avg, hmp45c\_rh\_avg, wind\_speed, win\_direction, tb4\_tot.}
+					\item Baixa 2:  {dia\_hora, record, hmp45c\_temp\_max, hmp45c\_temp\_tmx, hmp45c\_temp\_min, hmp45c\_temp\_tmin, hmp45c\_rh\_max, hmp45c\_rh\_tmx, hmp45c\_rh\_min, hmp45c\_rh\_tmn, rh05103\_veloc\_max, rh05103\_veloc\_tmx, tb4\_tot.}
+				\end{enumerate}
+			 	\item{O sistema processará e exibirá os resultados da consulta em uma nova página, no formato de uma tabela.}
+			 \end{enumerate}
+
+		\textbf{Extensões (ou Fluxo Alternativo):}
+		\begin{itemize}
+			\item[a)] \textbf{Nenhum registro encontrado:} Caso a consulta realizada pelo usuário não contenha nenhum registro, o sistema emitirá a mensagem: \textit{``Nenhuma medição encontrada''}.
+			\item[b)] \textbf{Datas Inválidas:} Caso o usuário informe um formato de data inválido para o(s) campo(s) data inicial e/ou data final, o sistema emitirá a mensagem: \textit{``Formato de data inválido.''}.
+			\item[c)] \textbf{Ordenação de Datas Inválidas:} Caso o usuário informe um data final anterior à data inicial ou uma data inicial posterior à data final, será exibida a mensagem: \textit{``Datas fora de ordem!''}.
+		\end{itemize}
+
+    \textbf{Regras de Negócio:}
+		\item[] \textbf{RN01 - } O usuário poderá ou não escolher uma data de inicio. Caso não informe a data de inicio, considerar a data inicial a primeira data válida do sistema.
+		\item[] \textbf{RN02 - } O usuário poderá ou não escolher uma data de fim. Caso não informe a data de fim, considerar a data final como a última data válida no sistema.
+		\item[] \textbf{RN03 - } Caso o usuário não preencha nenhum campo de pesquisa, todos os campos deverão ser exibidos na resposta de consulta.
+		\end{flushleft}
+
+	\end{framed}
+
+\end {quadro} % fim quadro 8
+
+
+%quadro 9
+\begin{quadro}[H]
+	\centering
+	\caption{Caso de Uso CDU09 - Exportar Dados}
+
+	\begin{framed}
+
+		\textbf{Caso de Uso CDU09: Exportar Dados}\\
+
+		\begin{flushleft}
+
+		\textbf{Escopo:} Aplicação Web LabInstru\\
+
+		\textbf{Ator principal:} Usuário\\
+
+		\textbf{Interessados e Interesses:}
+		\begin{itemize}
+			\item[-] Usuário: Deseja exportar os dados de uma pesquisa em um formato de arquivo pré-estabelecido pelo sistema.
+		\end{itemize}
+
+		\textbf{Pré-condições:}\\
+			 \begin{enumerate}
+			 	\item{Usuário necessita estar autenticado no sistema.}
+			 	\item{Ter uma listagem contendo os registros de medições de uma determinada estação meteorológica (vide Caso de Uso CDU08 - Consultar Medições).}
+			 \end{enumerate}
+
+		\textbf{Pós-condições (Garantia de Sucesso):}
+		\begin{itemize}
+		\item[-] Os dados da pesquisa serão exportados em um formato de arquivo escolhido pelo usuário.
+		\end{itemize}
+
+		\textbf{Cenário de Sucesso Principal (ou Fluxo Básico):}\\
+			\begin{enumerate}
+			 	\item{Usuário clicará no botão que especifica o formato de arquivo a ser exportado.}
+			 	\item{Escolherá o diretório em que será salvo o arquivo exportado.}
+			 	\item{Clicará no botão \textit{``Exportar Dados''}.}
+			 \end{enumerate}
+
+		\textbf{Regras de negócios:}
+		\begin{itemize}
+			\item[] \textbf{RN04 - } Os arquivos exportados serão do tipo: CSV, CSV (hidden cols), HTML, JSON, TSV e XML.
+		\end{itemize}
+		\end{flushleft}
+
+	\end{framed}
+
+\end {quadro} % fim quadro 09
+
+%quadro 10
+\begin{quadro}[H]
+	\centering
+	\caption{Caso de Uso CDU10 - Visualizar Gráficos}
+
+	\begin{framed}
+
+		\textbf{Caso de Uso CDU10: Visualizar Gráficos}\\
+
+		\begin{flushleft}
+
+		\textbf{Escopo:} Aplicação Web LabInstru\\
+
+		\textbf{Ator principal:} Usuário\\
+
+		\textbf{Interessados e Interesses:}
+		\begin{itemize}
+			\item[-] Usuário: Deseja gerar e visualizar gráficos que representem uma saída da ação consultar medições.
+		\end{itemize}
+
+		\textbf{Pré-condições:}\\
+			 \begin{enumerate}
+			 	\item{Usuário necessita estar autenticado no sistema.}
+			 	\item{Ter uma listagem de medições de uma determinada estação meteorológica (vide Caso de Uso CDU08 - Consulta Medições).}
+			 \end{enumerate}
+
+		\textbf{Pós-condições (Garantia de Sucesso):}
+		\begin{itemize}
+			\item[-] Os gráficos referentes a uma determinada consulta de medições serão exibidos aos usuários.
+		\end{itemize}
+
+		\textbf{Cenário de Sucesso Principal (ou Fluxo Básico):}\\
+			\begin{enumerate}
+			 	\item{Usuário clicará no botão \textit{``Gerar gráficos''}.}
+			 	\item{O sistema processará e redirecionará o usuário para uma página contendo os gráficos referentes aos dados obtidos na consulta.}
+			 \end{enumerate}
+
+		\end{flushleft}
+
+	\end{framed}
+
+\end {quadro} % fim quadro 10
+
+%quadro 11
+\begin{quadro}[H]
+	\centering
+	\caption{Caso de Uso CDU11 - Exportar Gráficos}
+
+	\begin{framed}
+
+		\textbf{Caso de Uso CDU11: Exportar Gráficos}\\
+
+		\begin{flushleft}
+
+		\textbf{Escopo:} Aplicação Web LabInstru\\
+
+		\textbf{Ator principal:} Usuário\\
+
+		\textbf{Interessados e Interesses:}
+		\begin{itemize}
+			\item[-] Usuário: Deseja exportar os gráficos gerados a partir de uma pesquisa realizada previamente.
+		\end{itemize}
+
+		\textbf{Pré-condições:}\\
+			 \begin{enumerate}
+			 	\item{Usuário necessita estar autenticado no sistema.}
+			 	\item{Ter gerado e visualizado os gráficos referentes a uma consulta de medição (vide Caso de Uso CDU10 - Visualizar Gráficos).}
+			 \end{enumerate}
+
+		\textbf{Pós-condições (Garantia de Sucesso):}
+		\begin{itemize}
+			\item[-] Os gráficos da pesquisa serão exportados em um formato de arquivo estabelecido pelo usuário.
+		\end{itemize}
+
+		\textbf{Cenário de Sucesso Principal (ou Fluxo Básico):}\\
+			\begin{enumerate}
+			 	\item{Usuário clicará no botão \textit{``Exportar Gráficos''}.}
+			 	\item{Escolherá e confirmará o diretório em que serão salvos os graficos exportados.}
+			 	\item{Clicará no botão \textit{``Exportar Gráficos''}.}
+			 \end{enumerate}
+
+		\textbf{Regras de negócios:}
+		\begin{itemize}
+			\item[] \textbf{RN05 - } Os arquivos exportados serão do tipo PDF.
+		\end{itemize}
+		\end{flushleft}
+
+	\end{framed}
+
+\end {quadro} % fim quadro 11
+
+
+
+%quadro 12
+\begin{quadro}[H]
+	\centering
+	\caption{Caso de Uso CDU12 - Inserir Medição}
+
+	\begin{framed}
+
+		\textbf{Caso de Uso CDU12: Inserir Medição}\\
+
+		\begin{flushleft}
+
+		\textbf{Escopo:} Aplicação Web LabInstru\\
+
+		\textbf{Ator principal:} Administrador\\
+
+		\textbf{Interessados e Interesses:}
+		\begin{itemize}
+			\item[-] Administrador: Deseja cadastrar novos dados das estações meteorológicas no banco de dados do sistema.
+		\end{itemize}
+
+		\textbf{Pré-condições:}\\
+			 \begin{enumerate}
+			 	\item{O administrador necessita estar autenticado no sistema.}
+			 	\item{Ser um usuário administrador}.
+				\item Ter um arquivo \textit{``.dat''} oriundo da estação meteorológica que deseja cadastrar.
+			 \end{enumerate}
+
+		\textbf{Pós-condições (Garantia de Sucesso):}
+		\begin{itemize}
+			\item[-] Ter os registros das medições salvos no banco de dados do sistema.
+		\end{itemize}
+
+
+		\textbf{Cenário de Sucesso Principal (ou Fluxo Básico):}\\
+			\begin{enumerate}
+				\item{O usuário iniciará escolhendo no menu principal da aplicação a opção \textit{``Medições''}.}
+				\item{Será aberto um menu dropdown exibindo as estações meteorológica possíveis para a realização de uma determinada funcionalidade.}
+				\item{Clique na estação meteorológica específica (Baixa 1 ou Baixa 2), e escolha no próximo menu dropdown que será exibido, a funcionalidade \textit{``Inserir''}.}
+			 	\item O Sistema processará a requisição e redirecionará o administrador para uma página contendo o formulário para envio do arquivo específico.
+				\item O administrador clicará no botão \textit{``Escolher arquivo''}. Será exibida uma tela apropriada para o usuário escolher o arquivo em seu computador.
+				\item Após selecionado o arquivo, será feito upload do arquivo clicando no obtão \textit{``Enviar Arquivo''}.
+				\item O sistema processará a ação e exibirá um relatório contendo as informações referentes ao processo de inserção de medições. Esse relatório será na forma de um log. Esse log conterá as seguintes informações:
+				  \begin{enumerate}
+						\item{Quantas tuplas foram cadastradas com sucesso.}
+						\item{Quantas tuplas não foram cadastradas.}
+						\item{Data e hora da ação realizada.}
+					\end{enumerate}
+			 \end{enumerate}
+
+		\textbf{Regras de negócios:}
+		\begin{itemize}
+			\item[] \textbf{RN06 - } Não cadastrar dados de medições já existentes no banco de dados do sistema. Caso aconteça, exibir uma mensagem de erro e salvar no arquivo de log que as tuplas já existem no sistema.
+			\item[] \textbf{RN07 - } Não inserir no banco de dados do sistemas tuplas com estruturas inconsistentes (menos campos, estrutura diferente). Caso aconteça, exibir uma mensagem de erro e mostrar no arquivo de log as tuplas que não foram cadastradas.
+			\item[] \textbf{RN08 - } Campos no arquivo selecionado com valor \textit{``NaN''} são persistidos com valor \textit{``NULL''} no banco de dados da aplicação.
+			\item[] \textbf{RN09 - } Arquivos para upload serão exclusivamente do tipo \textit{``.dat''}.
+			\item[] \textbf{RN10 - } Arquivos \emph{``.dat''} que não tenham estrutura interna compatível com dados oriundos das estações meteorológicas devem ser ignorados. Uma mensagem de erro será exibida: \emph{``Arquivo fora do padrão das estações meteorológicas.''}.
+
+		\end{itemize}
+
+		\end{flushleft}
+
+	\end{framed}
+
+\end {quadro} % fim quadro 12
+
+
+%quadro 13
+\begin{quadro}[H]
+	\centering
+	\caption{Caso de Uso CDU13 - Apagar Medições}
+
+	\begin{framed}
+
+		\textbf{Caso de Uso CDU13: Apagar Medições}\\
+
+		\begin{flushleft}
+
+		\textbf{Escopo:} Aplicação Web LabInstru\\
+
+		\textbf{Ator principal:} Administrador\\
+
+		\textbf{Interessados e Interesses:}
+		\begin{itemize}
+			\item[-] Administrador: Deseja apagar um ou mais registros de medições referente a uma determinada estação.
+		\end{itemize}
+
+		\textbf{Pré-condições:}\\
+			 \begin{enumerate}
+			 	\item{Administrador necessita estar autenticado no sistema.}
+			 	\item{Ser um usuário administrador.}
+			 \end{enumerate}
+
+		\textbf{Pós-condições (Garantia de Sucesso):}
+		\begin{itemize}
+			\item[-] Exclusão de um ou mais registros de medições do sistema.
+		\end{itemize}
+
+		\textbf{Cenário de Sucesso Principal (ou Fluxo Básico):}
+			\begin{enumerate}
+				\item{O usuário iniciará escolhendo no menu principal da aplicação a opção \textit{``Medições''}.}
+				\item{Será aberto um menu dropdown exibindo as estações meteorológica possíveis para a realização de uma determinada funcionalidade.}
+				\item{Clique na estação meteorológica específica (Baixa 1 ou Baixa 2), e escolha no próximo menu dropdown que será exibido, a funcionalidade \textit{``Excluir''}.}
+			 	\item{O Sistema redirecionará o administrador para a página de pesquisa de medições (vide Caso de Uso CDU08 - Pesquisar Medições).}
+			 	\item{Após obter a listagem de medições específica, o administrador marcará os registros de medições que desejará excluir e clicará no botão \textit{``Apagar Medições''}.}
+			 	\item{Para concluir a efetivação da exclusão dos registros, o administrador deverá confirmar a mensagem: \textit{``Deseja excluir as medições?''}.}
+			 	\item{O sistema processará e efetuará a exclusão das medições.}
+			 \end{enumerate}
+
+		\textbf{Extensões (ou Fluxo Alternativo):}
+		\begin{itemize}
+			\item[a)] \textbf{Nenhum registro encontrado:} Caso a pesquisa  realizada pelo sistema não retorne nenhum registro, o sistema emitirá a mensagem: \textit{``Medições não encontradas''}.
+		\end{itemize}
+
+		%\textbf{Regras de negócios:} Exibir as regras de negócios\\
+
+		\end{flushleft}
+
+	\end{framed}
+
+\end {quadro} % fim quadro 13
+
+%quadro 14
+\begin{quadro}[H]
+	\centering
+	\caption{Caso de Uso CDU14 - Visualizar Disponibilidade}
+
+	\begin{framed}
+
+		\textbf{Caso de Uso CDU14: Visualizar Disponibilidade}\\
+
+		\begin{flushleft}
+
+		\textbf{Escopo:} Aplicação Web LabInstru\\
+
+		\textbf{Ator principal:} Usuário\\
+
+		\textbf{Interessados e Interesses:}
+		\begin{itemize}
+			\item[-] Usuário: deseja visualizar, através de um calendário, informações sobre o total de medições realizadas por uma determinada estação, em um determinado dia.
+		\end{itemize}
+
+		\textbf{Pré-condições:}\\
+			 \begin{enumerate}
+			 	\item{Usuário necessita estar autenticado no sistema.}
+			 \end{enumerate}
+
+		\textbf{Pós-condições (Garantia de Sucesso):}
+		\begin{itemize}
+			\item[-] Exibição de um calendário de disponibilidade, onde visualmente será possível verificar se todas, parte ou nenhuma medição foi realizada em um determinado dia.
+		\end{itemize}
+
+		\textbf{Cenário de Sucesso Principal (ou Fluxo Básico):}
+			\begin{enumerate}
+				\item{O usuário iniciará escolhendo no menu principal da aplicação a opção \textit{``Medições''}.}
+				\item{Será aberto um menu dropdown exibindo as estações meteorológica possiveis para a realização de uma determinada funcionalidade.}
+				\item{Clique na estação meteorológica específica (Baixa 1 ou Baixa 2), e escolha no próximo menu dropdown que será exibido a funcionalidade \textit{``Disponibilidade''}.}
+				\item{O sistema processará a requisição e enviará como resposta, uma nova página da aplicação, contendo um calendário informando as medições realizadas em um determinado dia.}
+			 \end{enumerate}
+
+		\textbf{Extensões (ou Fluxo Alternativo):}
+		\begin{itemize}
+			\item[a)] \textbf{Erros HTTP:} Caso seja solicitada a página web referente à funcionalidade \textit{``Boletim''}, e a mesma não exitir no servidor onde esteja hospedado ou contenha erros em seu código fonte, uma página web de alerta exibirá o erro específico.
+		\end{itemize}
+
+		\textbf{Regras de negócios:}
+		\begin{itemize}
+			\item[] \textbf{RN11 - } Por dia, uma estação meteorológica, sendo Baixa 1 ou Baixa 2, é capaz de aferir 144 medições. Por isso, para os dias em que todas as medições foram realizadas com sucesso, o calendário de disponibilidade deverá exibir esses dias na cor \emph{``verde''}.
+
+			\item[] \textbf{RN12 - } Para os dias em que as medições realizadas forem inferior a 144 e superior a zero, o calendário de disponibilidade deverá exibir esses dias na cor \emph{``laranja''}.
+
+			\item[] \textbf{RN13 - } Para os dias em o total de medição for zero, o calendário de disponibilidade deverá exibir esses dias na cor \emph{``vermelha''}.
+		\end{itemize}
+
+		\end{flushleft}
+
+	\end{framed}
+
+\end {quadro} % fim quadro 14
+
+%quadro 14
+\begin{quadro}[H]
+	\centering
+	\caption{Caso de Uso CDU15 - Gerar Boletim}
+
+	\begin{framed}
+
+		\textbf{Caso de Uso CDU15: Gerar Boletim}\\
+
+		\begin{flushleft}
+
+		\textbf{Escopo:} Aplicação Web LabInstru\\
+
+		\textbf{Ator principal:} Usuário\\
+
+		\textbf{Interessados e Interesses:}
+		\begin{itemize}
+			\item[-] Usuário: visualizará medições meteorológicas pré-determinadas, em um calendário de boletim meteorológico.
+		\end{itemize}
+
+		\textbf{Pré-condições:}\\
+			 \begin{enumerate}
+			 	\item{Usuário necessita estar autenticado no sistema.}
+			 \end{enumerate}
+
+		\textbf{Pós-condições (Garantia de Sucesso):}
+		\begin{itemize}
+			\item[-] Exibição de um calendário de boletim meteorológico, onde visualmente será possível verificar informações meteorológicas referentes a um determinado dia.
+			\end{itemize}
+
+		\textbf{Cenário de Sucesso Principal (ou Fluxo Básico):}
+			\begin{enumerate}
+				\item{O usuário iniciará escolhendo no menu principal da aplicação a opção \textit{``Medições''}.}
+				\item{Será aberto um menu dropdown exibindo as estações meteorológica disponivéis para acesso e a opção \textit{Boletim}.}
+				\item{Clique na opção Boletim para gerar o boletim meteorológico.}
+				\item{O sistema processará a requisição e enviará como resposta, uma nova página da aplicação, contendo um calendário de boletim meteorológico.}
+				\item{Esse calendário deverá conter para cada dia do mês, as medições mais relevantes referentes aquele dia.}
+			 \end{enumerate}
+
+		\textbf{Extensões (ou Fluxo Alternativo):}
+		\begin{itemize}
+			\item[a)] \textbf{Erros HTTP:} Caso seja solicitada a página web referente à funcionalidade \textit{``Disponibilidade''}, e a mesma não exitir no servidor onde esteja hospedado ou contenha erros em seu código fonte, uma página web de alerta exibirá o erro específico.
+		\end{itemize}
+
+		\textbf{Regras de negócios:}
+		\begin{itemize}
+
+			\item[] \textbf{RN14 - } As informações presentes nos boletins meteorologicos são as média, máximo e mínimos de oito dados medidos pelas estações labinstru. Os dados que compreendem esses cálculos são:
+				\begin{enumerate}
+					\item{Pressão média.}
+					\item{Temperatura mínima.}
+					\item{Temperatura máxima.}
+					\item{Umidade mínima.}
+					\item{Umidade máxima.}
+					\item{Velocidade máxima do vento.}
+					\item{Direção do vento no momento do item anterior.}
+          \item Índice de calor;
+					\item{Precipitação acumulada.}
+				\end{enumerate}
+
+		\end{itemize}
+
+		\end{flushleft}
+
+	\end{framed}
+
+\end {quadro} % fim quadro 14

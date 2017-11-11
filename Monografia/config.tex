@@ -12,7 +12,7 @@
 \usepackage{fancyvrb}
 \usepackage{fancyhdr}
 \usepackage{setspace}
-\usepackage{amsmath}
+\usepackage{amsmath, amsfonts, amssymb}
 \usepackage{lscape}
 \usepackage{textcase}
 \usepackage{anysize}
@@ -22,11 +22,29 @@
 \usepackage{subfig}
 \usepackage{cite}
 \usepackage[alf]{abntex2cite}
+\usepackage{courier}
+\usepackage{xcolor}
+\usepackage{siunitx}
+\usepackage{framed}
+\usepackage{verbatim}
+\usepackage{hhline}
+\usepackage{trivfloat}
+\usepackage{enumitem}
+
+\linespread{1.1}
+\trivfloat{quadro}
+\floatstyle{plaintop} %Força posição da leganda para o topo
+\restylefloat{quadro} %Força posição da leganda para o topo
+\renewcommand{\listquadroname}{Lista de quadros} %Forçar texto na lista de quadros
+
+\usepackage{indentfirst}
+\usepackage{lineno}
+\usepackage{listings}
 
 \marginsize{20mm}{20mm}{20mm}{15mm}
 
 
-%% Cabe�alhos
+%% Cabeçalhos
 \renewcommand{\topfraction}{1}
 \renewcommand{\bottomfraction}{1}
 \renewcommand{\floatpagefraction}{1}
@@ -38,9 +56,9 @@
 %% Nomes
 \floatstyle{plain}  %%% tipos: plain, boxed, ruled
 \newfloat{codigo}{tbp}{lop}[section]
-\floatname{codigo}{C�digo}
+\floatname{codigo}{Código}
 
-%%% nome para ser usado no sum�rio
+%%% nome para ser usado no sumrio
 
 \newcommand{\listofcodename}{Lista de C\'{o}digos}
 
@@ -70,7 +88,7 @@
 
 }
 
-% Sum�rio -----------
+% Sumário -----------
 \newcommand{\sumario}{
 \renewcommand{\contentsname}{Sum\'{a}rio}
 \tableofcontents
@@ -81,7 +99,7 @@
 \addcontentsline{toc}{chapter}{\listfigurename}
 \listoffigures
 \addcontentsline{toc}{chapter}{\listofcodename}
-\listof{codigo}{\listofcodename}  % Lista de C�digos
+\listof{codigo}{\listofcodename}  % Lista de Códigos
 
 \clearpage
 }

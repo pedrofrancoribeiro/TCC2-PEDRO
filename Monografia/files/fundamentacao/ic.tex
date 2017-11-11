@@ -1,0 +1,35 @@
+O \emph{índice de calor} é uma temperatura aparente que representa a percepção da pele humana para as condições de temperatura e umidade aos quais está submetida, estando a pessoa sob sombra e submetida a ventos fracos \cite{Steadman:IndiceCalor}.É um dado meteorológico derivado a partir da temperatura máxima e da umidade relativa do ar obtida no instante da temperatura máxima, combinados por meio de uma análise de regressão múltipla, conforme proposto por Rothfusz \cite{Rothfusz:HeatIndex}. O cálculo do índice de calor é obtido como segue:
+
+\begin{eqnarray}
+Index_{heat} &=& - 42,379 + (2,04901523 \times T) + (10,14333127 \times rh) - (0,22475541 \times T \times rh) \nonumber\\
+& \ &  - (6,83783 \times 10^{-3}\times T^2) - (5,481717 \times 10^2 \times rh^2) + (1,22874 \times 10^{-3} \times T^2 \times rh)  \nonumber\\
+& \ &  + (8,5282 \times 10^{-4} \times T \times rh^2) - (1,99 \times 10^{-6} \times T^2 \times rh^2),
+\end{eqnarray} em que $T$ é a temperatura máxima do dia em graus Fahrenheit e $rh$ é a umidade relativa do ar em \% no instante da temperatura máxima.
+
+Há dois tipos de ajustes necessários no cálculo do índice de calor. Se $rh < 13\%$ e a temperatura encontra-se entre $26,7 ^{\circ}C$ e $44,4 ^{\circ}C$, é necessário subtrair do $Index_{heat}$ o seguinte valor de ajuste:
+
+\begin{equation}
+\textrm{ADJUSTEMENT 1} = [(13-rh)/4] \times \sqrt{\frac{17 - abs(T - 95)}{17}},
+\end{equation} em que $abs$ denota o valor absoluto. O outro tipo de ajuste ocorre se $rh > 85\%$ e $T$ encontra-se entre $26,7 ^{\circ}C$ e $30,6 ^{\circ}C$. Neste caso, é necessário subtrair do $Index_{heat}$ o valor de ajuste:
+
+\begin{equation}
+\textrm{ADJUSTEMENT 2} = [(rh - 85)/10]\times(87-T)/5].
+\end{equation} 
+
+Assim, para cada dia de observação de dados meteorológicos, é importante obter o índice de calor. Sendo possível a partir desse valor, utilizando uma tabela específica, classificar o índice de calor de acordo com seu nível de alerta e saber as consequências que o mesmo pode trazer para saúde do homem, vide Tabela \ref{tab:indiceCalor}. Este dado auxilia na tomada de decisão para evitar problemas de saúde pelo excesso de exposição ao calor, tais como cãimbras, esgotamento, dentre outros, que até podem culminar em óbito \cite{Silva:CalorTrabalho,Lima:Artigo}.
+
+\begin{table}[h!]
+  \caption{Níveis de alerta e suas consequências à saúde humana. Fonte: Adaptado de National Weather Service, Weather Forecast Office, NOAA} \label{tab:indiceCalor}
+  \centering
+\begin{tabular}{ccp{7cm}}
+ \toprule
+ \textbf{Nível de Alerta} & \textbf{Índice de Calor} & \textbf{Sintomas}\\
+ \midrule
+Perigo Extremo & 54 $^{\circ}C$ ou mais & Insolação; risco de acidente vascular cerebral (AVC) iminente.\\
+Perigo & 41,1 $^{\circ}C$ - 54 $^{\circ}C$  & Câimbras, insolação, esgotamento físico. Possibilidade de danos cerebrais (AVC) para exposições prolongadas com atividades físicas.\\
+Cautela Extrema & 32,1 $^{\circ}C$ - 41 $^{\circ}C$ & Possibilidade de câimbras, de esgotamento físico e insolação para exposições prolongadas e atividades físicas.\\
+Cautela & 27,1 $^{\circ}C$ - 32 $^{\circ}C$ & Possível fadiga em casos de exposições prolongadas e práticas de atividades físicas.\\
+Não há alerta & IC < 27 $^{\circ}C$ & Não há problemas\\
+\bottomrule
+\end{tabular}
+\end{table}

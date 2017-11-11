@@ -8,12 +8,9 @@
 %
 \documentclass[a4paper,titlepage,12pt]{report}
 
-
 \input{config}
 \pagestyle{plain}
 \input{./source/folhaRosto}
-
-
 
 %% Preencha aqui os seguintes dados
 \def \titulo{Uma Plataforma Web para Gerenciamento de Dados e Geração de Boletins Meteorológicos do LabInstru}
@@ -36,27 +33,24 @@
 % Idem para o abstract
 \abstractt{./files/abstract.tex}
 
-
 \sumario
 
 % Configuração de cabeçalhos
 \input{./source/inicioCapitulos} 
-
 
 % Seus capítulos vão aqui --------
 \input{./files/cap1.tex}
 \input{./files/cap2.tex}
 \input{./files/cap3.tex}
 \input{./files/cap4.tex}
-%\input{./files/exemplo.tex}
-%\input{./files/CAP4.tex}
-
-
 
 % Referência segundo o padrão ABNT
 % Edite este arquivo e inclua suas referências segundo a notação do Bibtex
 \bibliography{ref}
 
+\appendix
 
+\chapter{Detalhamento dos Casos de Uso} \label{sec:aprendiceCasoUso}
+\input{./files/detalhamento}
 
 \end{document}

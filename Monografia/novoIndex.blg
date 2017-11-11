@@ -1,0 +1,78 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: novoIndex.aux
+The style file: abntex2-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Database file #1: abntex2-options.bib
+Database file #2: ref.bib
+Warning--entry type for "KentBeck:ManifestoAgil" isn't style-file defined
+--line 92 of file ref.bib
+Warning--entry type for "Labinstru:EST" isn't style-file defined
+--line 100 of file ref.bib
+Warning--entry type for "MySql:MySql" isn't style-file defined
+--line 107 of file ref.bib
+Warning--entry type for "MySql:WorkBench" isn't style-file defined
+--line 114 of file ref.bib
+Warning--entry type for "Prototipacao:Mockups" isn't style-file defined
+--line 121 of file ref.bib
+Warning--entry type for "MetOffice:Beaufort" isn't style-file defined
+--line 204 of file ref.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 23 entries,
+            6714 wiz_defined-function locations,
+            1321 strings with 12596 characters,
+and the built_in function-call counts, 15644 in all, are:
+= -- 1258
+> -- 443
+< -- 9
++ -- 203
+- -- 139
+* -- 966
+:= -- 2206
+add.period$ -- 86
+call.type$ -- 23
+change.case$ -- 184
+chr.to.int$ -- 46
+cite$ -- 22
+duplicate$ -- 801
+empty$ -- 1404
+format.name$ -- 653
+if$ -- 3776
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 418
+newline$ -- 102
+num.names$ -- 110
+pop$ -- 562
+preamble$ -- 1
+purify$ -- 76
+quote$ -- 0
+skip$ -- 892
+stack$ -- 1
+substring$ -- 468
+swap$ -- 323
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 4
+warning$ -- 0
+while$ -- 136
+width$ -- 0
+write$ -- 330
+(There were 6 warnings)
