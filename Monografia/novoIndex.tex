@@ -2,7 +2,8 @@
 % Padrão para os cursos do Núcleo de Computação
 %
 % Elaborado por Elloá B. Guedes
-% Adaptado da versão elaborada por:				%                   Jucimar Maia Jr.
+% Adaptado da versão elaborada por:
+%                   Jucimar Maia Jr.
 %
 % Versão beta - 08 de outubro de 2015
 %
@@ -11,6 +12,8 @@
 \input{config}
 \pagestyle{plain}
 \input{./source/folhaRosto}
+\definecolor{lightblue}{RGB}{0,191,255}
+\usepackage[textsize=tiny,backgroundcolor=lightblue,linecolor=lightblue]{todonotes}
 
 %% Preencha aqui os seguintes dados
 \def \titulo{Uma Plataforma Web para Gerenciamento de Dados e Geração de Boletins Meteorológicos do LabInstru}
@@ -36,7 +39,7 @@
 \sumario
 
 % Configuração de cabeçalhos
-\input{./source/inicioCapitulos} 
+\input{./source/inicioCapitulos}
 
 % Seus capítulos vão aqui --------
 \input{./files/cap1.tex}
