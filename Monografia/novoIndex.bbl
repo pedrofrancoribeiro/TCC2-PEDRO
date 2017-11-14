@@ -5,6 +5,17 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.5 }
 
+\bibitem[affiliates 2017]{MySql:MySql}
+\abntrefinfo{affiliates}{AFFILIATES}{2017a}
+{AFFILIATES, O.~C. and/or~its. 2017. \url{https://dev.mysql.com/doc/}.
+Acessado em \today.}
+
+\bibitem[affiliates 2017]{MySql:WorkBench}
+\abntrefinfo{affiliates}{AFFILIATES}{2017b}
+{AFFILIATES, O.~C. and/or~its. 2017.
+  \url{https://dev.mysql.com/doc/workbench/en/}.
+Acessado em \today.}
+
 \bibitem[Ambler 2006]{Ambler:Livro}
 \abntrefinfo{Ambler}{AMBLER}{2006}
 {AMBLER, S. \emph{Modelagem Ágil}. 1. ed. [S.l.]: Bookman, 2006.}
@@ -17,6 +28,11 @@
 \bibitem[Duarte 2016]{Duarte:Web2py}
 \abntrefinfo{Duarte}{DUARTE}{2016}
 {DUARTE, M. \emph{Primeiros Passos com {Web2py}}. Porto Alegre: Amazon, 2016.}
+
+\bibitem[Duckett 2015]{Duckett:JS}
+\abntrefinfo{Duckett}{DUCKETT}{2015}
+{DUCKETT, J. \emph{Javascript e Jquery - Desenvolvimento de Interfaces Web
+  Interativas}. 1. ed. [S.l.]: Alta Books, 2015.}
 
 \bibitem[Gordon et al. 2012]{Gordon:Web2pycookbook}
 \abntrefinfo{Gordon et al.}{GORDON et al.}{2012}
@@ -69,6 +85,10 @@ Acessado em \today.}
   evaluation and yield forecasting for maize grown off-season in a subtropical
   environment. In:  \emph{European Journal of Agronomy}. [S.l.: s.n.], 2007.}
 
+\bibitem[Silva 2015]{Silva:Livro}
+\abntrefinfo{Silva}{SILVA}{2015}
+{SILVA, M.~S. \emph{Bootstrap 3.3.5}. 1. ed. [S.l.]: Novatec, 2015.}
+
 \bibitem[Silva e Almeida 2010]{Silva:CalorTrabalho}
 \abntrefinfo{Silva e Almeida}{SILVA; ALMEIDA}{2010}
 {SILVA, T.~L. da; ALMEIDA, V.~C. Influência do calor sobre a saúde e
@@ -84,6 +104,11 @@ Acessado em \today.}
 {STEADMAN, R.~G. The assessment of sultriness. part i: A temperature-humidity
   index based on human physiology and clothing science. In:  \emph{Journal of
   Applied Meteorology}. [S.l.: s.n.], 1979.}
+
+\bibitem[Studios 2017]{Prototipacao:Mockups}
+\abntrefinfo{Studios}{STUDIOS}{2017}
+{STUDIOS, B. 2017. \url{https://balsamiq.com/products/mockups/}.
+Acessado em \today.}
 
 \bibitem[Vianello 2011]{Vianello:Livro}
 \abntrefinfo{Vianello}{VIANELLO}{2011}
