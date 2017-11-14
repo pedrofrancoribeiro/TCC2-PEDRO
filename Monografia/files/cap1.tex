@@ -1,28 +1,28 @@
 \chapter{Introdução}
 
-As tecnologias computacionais relacionadas ao processamento de dados permitem uma melhor forma de manusear uma grande quantidade de informação. Se determinados processamentos forem realizados manualmente, a quantidade de tempo necessária poderia inviabilizar a sua realização. Além disso, os eventuais resultados também poderiam estar sujeitos à erros de manipulação, os quais são difíceis de detectar. Considerado estas dificuldades, diversas áreas do cotidiano utilizam a tecnologia como uma aliada, por exemplo a Meteorologia, responsável pelo estudo do clima e das condições de tempo de uma determinada região.
+As tecnologias computacionais relacionadas ao processamento de dados permitem uma melhor forma de manusear uma grande quantidade de informação. Se determinados processamentos fossem realizados manualmente, a quantidade de tempo necessária poderia inviabilizar a sua realização. Além disso, os eventuais resultados também poderiam estar sujeitos à erros de manipulação, os quais seriam difíceis de detectar. Considerado estas dificuldades, diversas áreas do cotidiano utilizam a tecnologia como uma aliada, por exemplo a Meteorologia, responsável pelo estudo do clima e das condições de tempo de uma determinada região.
 
-Algumas das atribuições da Meteorologia compreendem o entendimento do estado presente da atmosfera, o chamado ``tempo meteorológico'', e a realização de previsões, a chamada ``previsão do tempo'' \cite{Vianello:Livro}.No caso do tempo meteorológico, se faz necessário medidas de diferentes variáveis como temperatura do ar, umidade relativa do ar, direção e velocidade do vento, precipitação, pressão atmosférica, radiação, dentre outras. Considerando o grande volume de dados comum a este domínio, é essencial que tecnologias, métodos e ferramentas auxiliem a realização dessas tarefas propostas.
+Algumas das atribuições da Meteorologia compreendem o entendimento do estado presente da atmosfera, o chamado ``tempo meteorológico'', e a realização de previsões, a chamada ``previsão do tempo'' \cite{Vianello:Livro}. No caso do tempo meteorológico, se faz necessário medidas de diferentes variáveis como temperatura do ar, umidade relativa do ar, direção e velocidade do vento, precipitação, pressão atmosférica, radiação, dentre outras. Considerando o grande volume de dados comum a este domínio, é essencial que tecnologias, métodos e ferramentas auxiliem a realização dessas tarefas propostas.
 
-Visando um melhor entendimento das questões meteorológicas de Manaus e da Amazônia, em março de 2010 foi fundado o Laboratório de Instrumentação Meteorológica (LabInstru) da Escola Superior de Tecnologia (EST) da Universidade do Estado do Amazonas (UEA). Este laboratório dispõe, dentre outros, de uma estação meteorológica automática, localizada nas dependências da EST/UEA, sob as coordenadas \ang{03;05;32,5}S, \ang{60;00;59,69}W a 31 metros acima do nível do mar, na qual diversos sensores encontram-se instalados para medida e registros de diferentes variáveis meteorológicas \cite{Labinstru:EST}.
+Visando um melhor entendimento das questões meteorológicas de Manaus e da Amazônia, em março de 2010 foi fundado o \emph{Laboratório de Instrumentação Meteorológica} (LabInstru) da Escola Superior de Tecnologia (EST) da Universidade do Estado do Amazonas (UEA). Este laboratório dispõe, dentre outros, de uma estação meteorológica automática, localizada nas dependências da EST/UEA, sob as coordenadas \ang{03;05;32,5}S, \ang{60;00;59,69}W a 31 metros acima do nível do mar, na qual diversos sensores encontram-se instalados para medida e registros de diferentes variáveis meteorológicas \cite{Labinstru:EST}.
 
 Além da manutenção da estação meteorológica, o LabInstru possui uma série de atribuições, tais como a organização dos dados coletados, disponibilização de dados para órgãos governamentais e para a sociedade, geração de boletins meteorológicos informativos, dentre outros. Atualmente, a maioria dessas atividades têm sido realizada de forma manual, um processo demorado e exaustivo, sujeito a erros e imprecisões e que requer mão de obra altamente especializada.
 
-Para ilustrar o contexto considerado, um exemplo é apresentado na Figura \ref{fig:contexto}. Se um interessado desejar adquirir uma determinada informação, primeiramente deverá preencher um formulário online disponível no site do LabInstru e também entregar presencialmente no próprio laboratório, o termo de compromisso adequado a sua solicitação devidamente preenchido (Etapa 1). Em seguida, a equipe do laboratório recebe uma notificação da solicitação (via e-mail) e inicia a preparação dos dados (Etapa 2). O passo seguinte consiste em consultar diferentes arquivos-texto resultantes da estação meteorológica a fim de precisar o intervalo de datas requerido (Etapa 3). A equipe irá agregar esses dados e utilizará aplicativos adequados para filtrar as variáveis meteorológicas requeridas pela solicitação (Etapa 4).
+Para ilustrar o contexto considerado, um exemplo é apresentado na Figura \ref{fig:contexto}. Se um interessado desejar adquirir uma determinada informação, primeiramente deverá preencher um formulário online disponível no site do LabInstru e também entregar, presencialmente no próprio laboratório, o termo de compromisso adequado à sua solicitação devidamente preenchido (Etapa 1). Em seguida, a equipe do laboratório recebe uma notificação da solicitação (via e-mail) e inicia a preparação dos dados (Etapa 2). O passo seguinte consiste em consultar diferentes arquivos-texto resultantes da estação meteorológica a fim de precisar o intervalo de datas requerido (Etapa 3). A equipe irá agregar esses dados e utilizará aplicativos adequados para filtrar as variáveis meteorológicas requeridas pela solicitação (Etapa 4).
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\textwidth]{./img/contexto.png}
+	\includegraphics[width=0.6\textwidth]{./img/contexto.png}
 	\caption{Contexto atual de uma das atividades realizadas pelo LabInstru. Fonte: Próprio Autor} 			\label{fig:contexto}
 \end{figure}
 
 Embora este exemplo ilustre o cenário atual do LabInstru, não compreende todas as dificuldades enfrentadas pela equipe do laboratório na realização de suas atribuições. Há que se mencionar as dificuldades na preparação de gráficos ilustrativos, na verificação da disponibilidade de dados, na geração de boletins meteorológicos, no controle e manuseio dos arquivos da estação meteorológica, dentre diversas outras.
 
-Considerando este contexto, este trabalho de conclusão de curso tem por objetivo projetar e implementar uma plataforma web que venha a colaborar na minimização das dificuldades mencionadas. Para tanto, irá contemplar o armazenamento, gerenciamento e disponibilização de dados da estação meteorológica automática da EST/UEA, administrada pelo LabInstru, fornecendo também uma visualização desses dados por meio de boletins meteorológicos.
+Considerando este contexto, este trabalho de conclusão de curso teve por objetivo projetar e implementar uma plataforma web com vistas a colaborar na minimização das dificuldades mencionadas. Para tanto, contemplou o armazenamento, gerenciamento e disponibilização de dados da estação meteorológica automática da EST/UEA, administrada pelo LabInstru, fornecendo também uma visualização desses dados por meio de boletins meteorológicos.
 
 \section{Objetivos}
 
-O objetivo geral deste trabalho é projetar e implementar uma plataforma web, para armazenamento, gerenciamento e disponibilização de dados de uma estação meteorológica automática. Para obtenção de sucesso no objetivo apresentado, é necessário alcançar alguns objetivos específicos, a citar:
+O objetivo geral deste trabalho consistiu projetar e implementar uma plataforma web, para armazenamento, gerenciamento e disponibilização de dados de uma estação meteorológica automática. Para obtenção de sucesso no objetivo apresentado, fez-se necessário alcançar alguns objetivos específicos, a citar:
 
 \begin{enumerate}
 	\item Identificar e documentar as funcionalidades que a plataforma a ser desenvolvida deve prover;
@@ -42,7 +42,7 @@ Do ponto de vista da Engenharia de Computação, este trabalho de conclusão de 
 
 \section{Metodologia} \label{sec:metodologia}
 
-A metodologia utilizada para guiar as atividades deste trabalho de conclusão de curso é descrita a seguir em termos de atividades a serem realizadas.
+A metodologia adotada para guiar as atividades deste trabalho de conclusão de curso é apresentada a seguir, a qual compreendeu a realização das seguintes atividades:
 
 \begin{enumerate}[label=\textbf{Atividade \arabic*}.,leftmargin=*,labelindent=1em]
 	\item Identificar um processo de desenvolvimento que possa acomodar as características do trabalho em questão, considerando que novos requisitos podem ser descobertos, que só há um desenvolvedor e que não deve haver \emph{overhead} na documentação das atividades;
@@ -59,37 +59,6 @@ A metodologia utilizada para guiar as atividades deste trabalho de conclusão de
 	\item Defesa do trabalho de conclusão de curso II.
 \end{enumerate}
 
-\section{Cronograma}
-
-Uma visão geral do cronograma das atividades a serem desenvolvidas ao longo deste projeto podem ser vistas na Tabela \ref{tab:cronograma}. Elas possuem relação com as atividades listadas na Seção \ref{sec:metodologia}, a qual detalha a metodologia que o projeto de pesquisa deverá seguir.
-
-\begin{table}[h!]
-\caption{Cronograma de atividades considerando os dois semestres letivos do ano de 2017.} \label{tab:cronograma}
-\begin{center}
-\begin{small}
-\begin{tabular}{ccccccccccccc}
-  \toprule
-                  &  &  & \textbf{2017.1}  &  &  &  &  & & \textbf{2017.2} &  &   \\
- \textbf{Atividade}               & \textbf{02} & \textbf{03} & \textbf{04} & \textbf{05} & \textbf{06} & \textbf{07} & \textbf{08} & \textbf{09} & \textbf{10} & \textbf{11} & \textbf{12} \\
-  \midrule
-  \textbf{1}     &      X      &           &            &            &            &            &            &            &             &             &                     \\
-  \textbf{2}   &    X        &           &           &            &            &            &            &            &                         &               &      \\
-  \textbf{3}                                                &            &       X     &            &           &            &           &            &            &             &             &                     \\
-  \textbf{4}                                    &            &     X       &            &           &            &            &           &                        &           &               &      \\
-  \textbf{5}                                    &            &  X          &            &            &            &            &            &                         &             &               &      \\
-    \textbf{6}                                    &            &    X        &            &            &            &            &                        &             &             &               &      \\
-  \textbf{7}                                               &            &    X        &      X      &     X       &    X        &    X        &        X                &  X           &     X        &    X           &     \\
-	\textbf{8}                                               &      X      &     X       &      X      &     X       &            &            &                        &             &             &               &     \\
-	\textbf{9}                                               &            &            &            &            &    X        &            &                        &             &             &               &     \\
-	\textbf{10}                                               &            &            &            &            &            &            &                        &             &             &         X      &     \\
-	\textbf{11}                                               &            &            &            &            &            &      X     &            X            &     X        &    X         &     X          &  X   \\
-	\textbf{12}                                               &            &            &            &            &            &           &                        &             &             &               &  X   \\
-  \bottomrule
-\end{tabular}
-\end{small}
-\end{center}
-\end{table}
-
 \section{Organização do Documento}
 
-Para apresentar a solução proposta, este trabalho de conclusão de curso está organizado como segue. A Seção \ref{sec:fundamentacao} apresenta os conceitos essenciais que foram utilizados no desenvolvimento deste trabalho, a Seção \ref{sec:solucao} apresenta a solução proposta, contemplando uma visão geral, o processo de desenvolvimento adotado, os casos de uso, a prototipação das telas do usuário, as tecnologias utilizadas e a apresentação da plataforma. Por fim, as considerações parciais são apresentadas na Seção \ref{sec:considera}.
+Para apresentar a solução proposta, este trabalho de conclusão de curso está organizado como segue. O Capítulo \ref{cap:fundamentacao} apresenta os conceitos essenciais que foram utilizados no desenvolvimento deste trabalho, incluindo o contexto da Estação Meteorológica da EST, o boletim meteorológico do LabInstru e conceitos da Meteorologia, tais como índice de calor e escala de Beaufort. O Capítulo \ref{cap:solucao} apresenta a solução proposta, contemplando desde uma visão geral da mesma, os artefatos de modelagem produzidos, protótipos e a versão executável da mesma implementada na linguagem de programação Python, com o \emph{framework} Web2py. Por fim, as considerações finais e sugestões de trabalhos futuros encontram-se descritos no Capítulo \ref{cap:consideracoes}.

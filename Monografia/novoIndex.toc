@@ -1,27 +1,9 @@
 \select@language {brazil}
-\contentsline {chapter}{Lista de Tabelas}{vii}
-\contentsline {chapter}{Lista de Figuras}{ix}
+\contentsline {chapter}{Lista de Tabelas}{vi}
+\contentsline {chapter}{Lista de Figuras}{viii}
 \contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}
 \contentsline {section}{\numberline {1.1}Objetivos}{3}
-\contentsline {section}{\numberline {1.2}Justificativa}{4}
-\contentsline {section}{\numberline {1.3}Metodologia}{5}
-\contentsline {section}{\numberline {1.4}Cronograma}{6}
-\contentsline {section}{\numberline {1.5}Organiza\IeC {\c c}\IeC {\~a}o do Documento}{7}
-\contentsline {chapter}{\numberline {2}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{8}
-\contentsline {section}{\numberline {2.1}Esta\IeC {\c c}\IeC {\~a}o Meteorol\IeC {\'o}gica Autom\IeC {\'a}tica da EST}{8}
-\contentsline {section}{\numberline {2.2}Boletim Meteorol\IeC {\'o}gico do LabInstru}{14}
-\contentsline {section}{\numberline {2.3}\IeC {\'I}ndice de Calor}{16}
-\contentsline {section}{\numberline {2.4}Escala de Beaufort}{17}
-\contentsline {section}{\numberline {2.5}Processo Unificado \IeC {\'A}gil}{18}
-\contentsline {section}{\numberline {2.6}\emph {Framework} Web2py}{22}
-\contentsline {subsection}{\numberline {2.6.1}Padr\IeC {\~a}o de Projeto MVC}{23}
-\contentsline {chapter}{\numberline {3}Solu\IeC {\c c}\IeC {\~a}o Proposta}{25}
-\contentsline {section}{\numberline {3.1}Processo de Desenvolvimento Adotado}{25}
-\contentsline {section}{\numberline {3.2}Diagramas de Caso de Uso}{26}
-\contentsline {section}{\numberline {3.3}Agenda de Implementa\IeC {\c c}\IeC {\~a}o}{29}
-\contentsline {section}{\numberline {3.4}Prototipa\IeC {\c c}\IeC {\~a}o das Telas do Usu\IeC {\'a}rio}{30}
-\contentsline {section}{\numberline {3.5}Tecnologias Utilizadas}{37}
-\contentsline {section}{\numberline {3.6}Apresenta\IeC {\c c}\IeC {\~a}o da Plataforma}{38}
-\contentsline {section}{\numberline {3.7}Modelo para Boletim Meteorol\IeC {\'o}gico}{45}
-\contentsline {chapter}{\numberline {4}Considera\IeC {\c c}\IeC {\~o}es Finais}{47}
-\contentsline {chapter}{\numberline {A}Detalhamento dos Casos de Uso}{51}
+\contentsline {section}{\numberline {1.2}Justificativa}{3}
+\contentsline {section}{\numberline {1.3}Metodologia}{4}
+\contentsline {section}{\numberline {1.4}Organiza\IeC {\c c}\IeC {\~a}o do Documento}{5}
+\contentsline {chapter}{\numberline {A}Detalhamento dos Casos de Uso}{8}

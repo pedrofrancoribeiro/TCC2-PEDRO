@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.8)  12 NOV 2017 11:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.8)  14 NOV 2017 10:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1301,25 +1301,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--32
 
 LaTeX Warning: Marginpar on page iv moved.
 
-[4] (./files/abstract.tex) [5] (./novoIndex.toc [6
-
-])
+[4] (./files/abstract.tex) [5] (./novoIndex.toc)
 \tf@toc=\write6
 \openout6 = `novoIndex.toc'.
 
- [7] (./novoIndex.lot)
+ [6
+
+] (./novoIndex.lot)
 \tf@lot=\write7
 \openout7 = `novoIndex.lot'.
 
- [8
+ [7
 
-] (./novoIndex.lof [9
-
-])
+] (./novoIndex.lof)
 \tf@lof=\write8
 \openout8 = `novoIndex.lof'.
 
- [10] [11] (./source/inicioCapitulos.tex
+ [8
+
+] (./source/inicioCapitulos.tex
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 6.
 
@@ -1331,380 +1331,66 @@ Cap\'{\i }tulo 1.
 [1
 
 
-] <./img/contexto.png, id=51, 903.375pt x 451.6875pt>
+] <./img/contexto.png, id=42, 903.375pt x 451.6875pt>
 File: ./img/contexto.png Graphic file (type png)
  <use ./img/contexto.png>
 Package pdftex.def Info: ./img/contexto.png used on input line 15.
-(pdftex.def)             Requested size: 483.69687pt x 241.85373pt.
- [2] [3 <./img/contexto.png>] [4] [5]
+(pdftex.def)             Requested size: 290.22107pt x 145.11499pt.
+ [2 <./img/contexto.png>] [3] [4]
 
-LaTeX Warning: Reference `sec:fundamentacao' on page 6 undefined on input line 95.
-
-
-LaTeX Warning: Reference `sec:solucao' on page 6 undefined on input line 95.
+LaTeX Warning: Reference `cap:fundamentacao' on page 5 undefined on input line 64.
 
 
-LaTeX Warning: Reference `sec:considera' on page 6 undefined on input line 95.
-
-) (./files/cap2.tex [6] [7]
-Cap\'{\i }tulo 2.
-(./files/fundamentacao/ema.tex [8
-
-] [9] <./img/ema5.png, id=83, 392.21532pt x 448.67625pt>
-File: ./img/ema5.png Graphic file (type png)
- <use ./img/ema5.png>
-Package pdftex.def Info: ./img/ema5.png used on input line 13.
-(pdftex.def)             Requested size: 285.37938pt x 326.47662pt.
-
-Overfull \hbox (3.00641pt too wide) in paragraph at lines 19--46
- [][] 
- []
-
-[10 <./img/ema5.png>] <./img/ema6.png, id=88, 176.91093pt x 227.34938pt>
-File: ./img/ema6.png Graphic file (type png)
- <use ./img/ema6.png>
-Package pdftex.def Info: ./img/ema6.png used on input line 74.
-(pdftex.def)             Requested size: 145.11053pt x 186.48666pt.
+LaTeX Warning: Reference `cap:solucao' on page 5 undefined on input line 64.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Reference `cap:consideracoes' on page 5 undefined on input line 64.
 
-<./img/ema7.png, id=89, 168.63pt x 226.59656pt>
-File: ./img/ema7.png Graphic file (type png)
- <use ./img/ema7.png>
-Package pdftex.def Info: ./img/ema7.png used on input line 80.
-(pdftex.def)             Requested size: 145.11053pt x 194.99716pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./img/ema4.png, id=90, 722.7pt x 484.81125pt>
-File: ./img/ema4.png Graphic file (type png)
- <use ./img/ema4.png>
-Package pdftex.def Info: ./img/ema4.png used on input line 88.
-(pdftex.def)             Requested size: 483.69687pt x 324.48155pt.
- [11]
-Overfull \vbox (197.50311pt too high) has occurred while \output is active []
-
- [12 <./img/ema6.png> <./img/ema7.png> <./img/ema4.png>]
-Underfull \hbox (badness 2662) in paragraph at lines 106--106
-[]\T1/aer/m/n/8 `TIMESTAMP', `RE-CORD', `batt_volt_Min', `PTemp', `NR-Lite_Avg', `CM3Up_Avg', `CM3Dn_Avg', `CG3UpCorr_Avg',
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
-\T1/aer/m/n/8 `CG3DnCorr_Avg', `CNR1TC_Avg', `CMA11Up_Avg', `CMA11Dn_Avg', `LI190S_Avg', `VW_Avg', `HFP01_Avg',
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
-\T1/aer/m/n/8 `STP01_50cm_Avg', `STP01_20cm_Avg', `STP01_10cm_Avg', `STP01_5cm_Avg', `STP01_2cm_Avg', `CS106_Avg',
- []
-
-LaTeX Font Info:    Try loading font information for T1+aess on input line 106.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/ae/t1aess.fd
-File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
-)
-Overfull \hbox (12.4638pt too wide) in paragraph at lines 106--108
- [][] 
- []
-
-[13]) (./files/fundamentacao/bm.tex <./img/bm.png, id=105, 903.375pt x 315.42844pt>
-File: ./img/bm.png Graphic file (type png)
- <use ./img/bm.png>
-Package pdftex.def Info: ./img/bm.png used on input line 5.
-(pdftex.def)             Requested size: 435.32422pt x 152.00555pt.
- [14 <./img/bm.png>] <./img/boclima.png, id=111, 2341.74875pt x 3136.71875pt>
-File: ./img/boclima.png Graphic file (type png)
- <use ./img/boclima.png>
-Package pdftex.def Info: ./img/boclima.png used on input line 17.
-(pdftex.def)             Requested size: 193.47578pt x 259.1271pt.
-) (./files/fundamentacao/ic.tex [15 <./img/boclima.png>]
-Overfull \hbox (8.48572pt too wide) in alignment at lines 3--7
- [][][] []
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 12.1638pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[16]
-Underfull \hbox (badness 1394) in paragraph at lines 29--30
-\T1/aer/m/n/12 sico. Pos-si-bi-li-dade de da-nos ce-re-
- []
-
-) (./files/fundamentacao/beaufort.tex [17]) (./files/fundamentacao/aup.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 12.1638pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[18]
-LaTeX Font Info:    Try loading font information for OMS+aer on input line 23.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/ae/omsaer.fd
-File: omsaer.fd 1999/12/27
-)
-LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 12.1638pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[19] <./img/aupOficial.png, id=130, 660.96938pt x 329.73187pt>
-File: ./img/aupOficial.png Graphic file (type png)
- <use ./img/aupOficial.png>
-Package pdftex.def Info: ./img/aupOficial.png used on input line 33.
-(pdftex.def)             Requested size: 462.6754pt x 230.81071pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 12.1638pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[20 <./img/aupOficial.png>])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 12.1638pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[21] (./files/fundamentacao/web2py.tex [22] <./img/mvc.png, id=143, 512.91624pt x 212.795pt>
-File: ./img/mvc.png Graphic file (type png)
- <use ./img/mvc.png>
-Package pdftex.def Info: ./img/mvc.png used on input line 17.
-(pdftex.def)             Requested size: 338.58632pt x 140.4711pt.
- [23 <./img/mvc.png>])) (./files/cap3.tex [24]
-Cap\'{\i }tulo 3.
-(./files/solucao/processos.tex [25
+) [5] (./novoIndex.bbl [6]) [7
 
 ]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 7.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)) (./files/solucao/diagramas.tex <img/uc001.png, id=154, 418.56375pt x 255.20343pt>
-File: img/uc001.png Graphic file (type png)
- <use img/uc001.png>
-Package pdftex.def Info: img/uc001.png used on input line 7.
-(pdftex.def)             Requested size: 334.85144pt x 204.16301pt.
- [26] <img/uc002.png, id=160, 499.11469pt x 311.66437pt>
-File: img/uc002.png Graphic file (type png)
- <use img/uc002.png>
-Package pdftex.def Info: img/uc002.png used on input line 14.
-(pdftex.def)             Requested size: 399.29228pt x 249.33183pt.
- <img/uc003.png, id=161, 610.53094pt x 260.47313pt>
-File: img/uc003.png Graphic file (type png)
- <use img/uc003.png>
-Package pdftex.def Info: img/uc003.png used on input line 22.
-(pdftex.def)             Requested size: 488.42542pt x 208.37878pt.
-
-Overfull \hbox (4.72855pt too wide) in paragraph at lines 22--23
- [][] 
- []
-
-[27 <./img/uc001.png> <./img/uc002.png>] <img/uc004.png, id=167, 477.28313pt x 191.9672pt>
-File: img/uc004.png Graphic file (type png)
- <use img/uc004.png>
-Package pdftex.def Info: img/uc004.png used on input line 30.
-(pdftex.def)             Requested size: 381.82701pt x 153.57396pt.
- [28 <./img/uc003.png>]) (./files/solucao/agenda.tex) (./files/solucao/telas.tex [29 <./img/uc004.png>] <./img/telas/tela002.png, id=176, 803.0pt x 602.25pt>
-File: ./img/telas/tela002.png Graphic file (type png)
- <use ./img/telas/tela002.png>
-Package pdftex.def Info: ./img/telas/tela002.png used on input line 7.
-(pdftex.def)             Requested size: 386.95897pt x 290.2254pt.
- <./img/telas/tela025.png, id=177, 803.0pt x 602.25pt>
-File: ./img/telas/tela025.png Graphic file (type png)
- <use ./img/telas/tela025.png>
-Package pdftex.def Info: ./img/telas/tela025.png used on input line 16.
-(pdftex.def)             Requested size: 386.95897pt x 290.2254pt.
- [30 <./img/telas/tela002.png>] <./img/telas/tela027.png, id=182, 803.0pt x 602.25pt>
-File: ./img/telas/tela027.png Graphic file (type png)
- <use ./img/telas/tela027.png>
-Package pdftex.def Info: ./img/telas/tela027.png used on input line 23.
-(pdftex.def)             Requested size: 386.95897pt x 290.2254pt.
- [31 <./img/telas/tela025.png> <./img/telas/tela027.png>] <./img/telas/tela033.png, id=188, 803.0pt x 602.25pt>
-File: ./img/telas/tela033.png Graphic file (type png)
- <use ./img/telas/tela033.png>
-Package pdftex.def Info: ./img/telas/tela033.png used on input line 31.
-(pdftex.def)             Requested size: 386.95897pt x 290.2254pt.
- <./img/telas/tela053.png, id=189, 803.0pt x 602.25pt>
-File: ./img/telas/tela053.png Graphic file (type png)
- <use ./img/telas/tela053.png>
-Package pdftex.def Info: ./img/telas/tela053.png used on input line 39.
-(pdftex.def)             Requested size: 386.95897pt x 290.2254pt.
- [32 <./img/telas/tela033.png>] <./img/telas/tela058.png, id=195, 803.0pt x 602.25pt>
-File: ./img/telas/tela058.png Graphic file (type png)
- <use ./img/telas/tela058.png>
-Package pdftex.def Info: ./img/telas/tela058.png used on input line 47.
-(pdftex.def)             Requested size: 386.95897pt x 290.2254pt.
- [33 <./img/telas/tela053.png>] <./img/telas/tela062.png, id=200, 803.0pt x 602.25pt>
-File: ./img/telas/tela062.png Graphic file (type png)
- <use ./img/telas/tela062.png>
-Package pdftex.def Info: ./img/telas/tela062.png used on input line 53.
-(pdftex.def)             Requested size: 386.95897pt x 290.2254pt.
- [34 <./img/telas/tela058.png> <./img/telas/tela062.png>] <./img/telas/tela072.png, id=206, 803.0pt x 602.25pt>
-File: ./img/telas/tela072.png Graphic file (type png)
- <use ./img/telas/tela072.png>
-Package pdftex.def Info: ./img/telas/tela072.png used on input line 61.
-(pdftex.def)             Requested size: 386.95897pt x 290.2254pt.
- <./img/telas/tela073.png, id=207, 803.0pt x 602.25pt>
-File: ./img/telas/tela073.png Graphic file (type png)
- <use ./img/telas/tela073.png>
-Package pdftex.def Info: ./img/telas/tela073.png used on input line 67.
-(pdftex.def)             Requested size: 386.95897pt x 290.2254pt.
- [35 <./img/telas/tela072.png>] <./img/telas/tela077.png, id=212, 803.0pt x 602.25pt>
-File: ./img/telas/tela077.png Graphic file (type png)
- <use ./img/telas/tela077.png>
-Package pdftex.def Info: ./img/telas/tela077.png used on input line 75.
-(pdftex.def)             Requested size: 386.95897pt x 290.2254pt.
-) [36 <./img/telas/tela073.png>] (./files/solucao/tecnologias.tex [37 <./img/telas/tela077.png>]) (./files/solucao/apresentacaoPlataforma.tex [38] <./img/ap1.png, id=225, 1028.34187pt x 523.20468pt>
-File: ./img/ap1.png Graphic file (type png)
- <use ./img/ap1.png>
-Package pdftex.def Info: ./img/ap1.png used on input line 7.
-(pdftex.def)             Requested size: 435.32422pt x 221.48485pt.
- <./img/ap10.png, id=226, 1028.34187pt x 517.935pt>
-File: ./img/ap10.png Graphic file (type png)
- <use ./img/ap10.png>
-Package pdftex.def Info: ./img/ap10.png used on input line 13.
-(pdftex.def)             Requested size: 435.32422pt x 219.25407pt.
- [39 <./img/ap1.png (PNG copy)> <./img/ap10.png (PNG copy)>] <./img/ap11.png, id=231, 1028.34187pt x 520.94624pt>
-File: ./img/ap11.png Graphic file (type png)
- <use ./img/ap11.png>
-Package pdftex.def Info: ./img/ap11.png used on input line 21.
-(pdftex.def)             Requested size: 435.32422pt x 220.52881pt.
- <./img/ap12.png, id=232, 1028.34187pt x 521.69907pt>
-File: ./img/ap12.png Graphic file (type png)
- <use ./img/ap12.png>
-Package pdftex.def Info: ./img/ap12.png used on input line 29.
-(pdftex.def)             Requested size: 435.32422pt x 220.84749pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./img/ap13.png, id=233, 1028.34187pt x 522.45187pt>
-File: ./img/ap13.png Graphic file (type png)
- <use ./img/ap13.png>
-Package pdftex.def Info: ./img/ap13.png used on input line 35.
-(pdftex.def)             Requested size: 435.32422pt x 221.16617pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[40 <./img/ap11.png (PNG copy)>] <./img/ap4.png, id=237, 1028.34187pt x 522.45187pt>
-File: ./img/ap4.png Graphic file (type png)
- <use ./img/ap4.png>
-Package pdftex.def Info: ./img/ap4.png used on input line 45.
-(pdftex.def)             Requested size: 435.32422pt x 221.16617pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./img/ap14.png, id=238, 1028.34187pt x 520.19344pt>
-File: ./img/ap14.png Graphic file (type png)
- <use ./img/ap14.png>
-Package pdftex.def Info: ./img/ap14.png used on input line 51.
-(pdftex.def)             Requested size: 435.32422pt x 220.21011pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[41 <./img/ap12.png (PNG copy)> <./img/ap13.png (PNG copy)>] [42 <./img/ap4.png (PNG copy)> <./img/ap14.png (PNG copy)>] <./img/ap8.png, id=245, 856.70062pt x 225.09094pt>
-File: ./img/ap8.png Graphic file (type png)
- <use ./img/ap8.png>
-Package pdftex.def Info: ./img/ap8.png used on input line 59.
-(pdftex.def)             Requested size: 435.32422pt x 114.37926pt.
- <./img/ap5.png, id=246, 1028.34187pt x 520.19344pt>
-File: ./img/ap5.png Graphic file (type png)
- <use ./img/ap5.png>
-Package pdftex.def Info: ./img/ap5.png used on input line 67.
-(pdftex.def)             Requested size: 435.32422pt x 220.21011pt.
- <./img/ap6.png, id=247, 1028.34187pt x 518.6878pt>
-File: ./img/ap6.png Graphic file (type png)
- <use ./img/ap6.png>
-Package pdftex.def Info: ./img/ap6.png used on input line 73.
-(pdftex.def)             Requested size: 435.32422pt x 219.57275pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[43 <./img/ap8.png> <./img/ap5.png (PNG copy)>] <./img/ap3.png, id=252, 1028.34187pt x 522.45187pt>
-File: ./img/ap3.png Graphic file (type png)
- <use ./img/ap3.png>
-Package pdftex.def Info: ./img/ap3.png used on input line 83.
-(pdftex.def)             Requested size: 435.32422pt x 221.16617pt.
- [44 <./img/ap6.png (PNG copy)> <./img/ap3.png (PNG copy)>] <./img/ap7.png, id=257, 1028.34187pt x 520.19344pt>
-File: ./img/ap7.png Graphic file (type png)
- <use ./img/ap7.png>
-Package pdftex.def Info: ./img/ap7.png used on input line 91.
-(pdftex.def)             Requested size: 435.32422pt x 220.21011pt.
-) (./files/solucao/modeloBoletim.tex [45 <./img/ap7.png (PNG copy)>] <./img/esbocoBoletim.png, id=261, 3011.25pt x 2374.37062pt>
-File: ./img/esbocoBoletim.png Graphic file (type png)
- <use ./img/esbocoBoletim.png>
-Package pdftex.def Info: ./img/esbocoBoletim.png used on input line 9.
-(pdftex.def)             Requested size: 435.32422pt x 343.24237pt.
-)) (./files/cap4.tex [46 <./img/esbocoBoletim.png>]
-Cap\'{\i }tulo 4.
-) [47
-
-] (./novoIndex.bbl [48] [49
-
-])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 12.51453pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[50]
 Ap\^endice A.
-(./files/detalhamento.tex [51
+(./files/detalhamento.tex [8
 
 ]
 Overfull \vbox (295.24544pt too high) has occurred while \output is active []
 
- [52] [53] [54] [55]
+ [9] [10] [11] [12]
 Overfull \vbox (12.94551pt too high) has occurred while \output is active []
 
- [56] [57]
+ [13] [14]
 Overfull \vbox (16.11765pt too high) has occurred while \output is active []
 
- [58]
+ [15]
 Overfull \vbox (300.44551pt too high) has occurred while \output is active []
 
- [59] [60] [61] [62]
+ [16] [17] [18] [19]
 Overfull \vbox (272.44551pt too high) has occurred while \output is active []
 
- [63] [64]
+ [20] [21]
 Overfull \vbox (36.94551pt too high) has occurred while \output is active []
 
- [65])
+ [22])
 Overfull \vbox (163.94551pt too high) has occurred while \output is active []
 
- [66] (./novoIndex.aux)
+ [23] (./novoIndex.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 27278 strings out of 493089
- 544485 string characters out of 6134842
- 534074 words of memory out of 5000000
- 30087 multiletter control sequences out of 15000+600000
- 63121 words of font info for 133 fonts, out of 8000000 for 9000
+ 26802 strings out of 493089
+ 535825 string characters out of 6134842
+ 534773 words of memory out of 5000000
+ 29728 multiletter control sequences out of 15000+600000
+ 46420 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,77p,10410b,697s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on novoIndex.pdf (77 pages, 7132567 bytes).
+ 62i,11n,77p,10410b,697s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on novoIndex.pdf (31 pages, 312373 bytes).
 PDF statistics:
- 389 PDF objects out of 1000 (max. 8388607)
- 229 compressed objects within 3 object streams
+ 148 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 193 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
