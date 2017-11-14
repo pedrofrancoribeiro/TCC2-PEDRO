@@ -5,15 +5,94 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.5 }
 
+\bibitem[Ambler 2006]{Ambler:Livro}
+\abntrefinfo{Ambler}{AMBLER}{2006}
+{AMBLER, S. \emph{Modelagem Ágil}. 1. ed. [S.l.]: Bookman, 2006.}
+
+\bibitem[Beck et al. 2001]{KentBeck:ManifestoAgil}
+\abntrefinfo{Beck et al.}{BECK et al.}{2001}
+{BECK, K. et al. \emph{Manifesto para o {D}esenvolvimento {Á}gil de
+  {S}oftware}. 2001. \url{https://www.manifestoagil.com.br}.}
+
+\bibitem[Duarte 2016]{Duarte:Web2py}
+\abntrefinfo{Duarte}{DUARTE}{2016}
+{DUARTE, M. \emph{Primeiros Passos com {Web2py}}. Porto Alegre: Amazon, 2016.}
+
+\bibitem[Gordon et al. 2012]{Gordon:Web2pycookbook}
+\abntrefinfo{Gordon et al.}{GORDON et al.}{2012}
+{GORDON, R. et al. \emph{web2py Application Development Cookbook}. [S.l.]:
+  Packt Publishing, 2012.}
+
+\bibitem[Larman 2005]{Larman:Livro}
+\abntrefinfo{Larman}{LARMAN}{2005}
+{LARMAN, C. \emph{Utilizando {UML} e Padrões}. 3. ed. [S.l.]: Bookman, 2005.}
+
+\bibitem[Lima, Guedes e Oliveira 2015]{Lima:Artigo}
+\abntrefinfo{Lima, Guedes e Oliveira}{LIMA; GUEDES; OLIVEIRA}{2015}
+{LIMA, P.~M. de; GUEDES, E.~B.; OLIVEIRA, M. B.~L. de. {BoCliMa} -- uma
+  ferramenta para suporte ao processamento de dados em um laboratório de
+  instrumentação meteorológica. In:  \emph{{VII} Conferência Científica
+  Internacional de la Universidad de Holguín}. Holguín, Cuba: [s.n.], 2015.
+  p.~1--8.}
+
+\bibitem[MetOffice 2011]{MetOffice:Beaufort}
+\abntrefinfo{MetOffice}{METOFFICE}{2011}
+{METOFFICE, N. M.~L. \emph{The Beaufort Scale}. 2011.
+  \url{http://www.metoffice.gov.uk/binaries/content/assets/mohippo/pdf/b/7/fact_sheet_no._6.pdf}.
+Acessado em \today.}
+
 \bibitem[Oliveira 2016]{Labinstru:EST}
 \abntrefinfo{Oliveira}{OLIVEIRA}{2016}
 {OLIVEIRA, M. B.~L. 2016.
   \url{https://sites.google.com/a/uea.edu.br/labinstru/}.
 Acessado em \today.}
 
+\bibitem[Pierro 2013]{Pierro:Livro}
+\abntrefinfo{Pierro}{PIERRO}{2013}
+{PIERRO, M.~D. \emph{WEB2PY Complete Reference Manual}. 5. ed. [S.l.]:
+  Experts4Solutions, 2013.}
+
+\bibitem[Pressman 2016]{Pressman:Livro}
+\abntrefinfo{Pressman}{PRESSMAN}{2016}
+{PRESSMAN, R. \emph{Engenharia de Software}. 8. ed. [S.l.]: Amgh Editora,
+  2016.}
+
+\bibitem[Rothfusz 1990]{Rothfusz:HeatIndex}
+\abntrefinfo{Rothfusz}{ROTHFUSZ}{1990}
+{ROTHFUSZ, L.~P. \emph{The heat index equation (or, more than you ever wanted
+  to know about heat index)}.
+[S.l.], 1990.}
+
+\bibitem[Sentelhas 2007]{Sentelhas:EscalaBeaufort}
+\abntrefinfo{Sentelhas}{SENTELHAS}{2007}
+{SENTELHAS, P.~C. Application of the csm-ceres-maize model for planting date
+  evaluation and yield forecasting for maize grown off-season in a subtropical
+  environment. In:  \emph{European Journal of Agronomy}. [S.l.: s.n.], 2007.}
+
+\bibitem[Silva e Almeida 2010]{Silva:CalorTrabalho}
+\abntrefinfo{Silva e Almeida}{SILVA; ALMEIDA}{2010}
+{SILVA, T.~L. da; ALMEIDA, V.~C. Influência do calor sobre a saúde e
+  desempenho dos trabalhadores. In:  \emph{Simpósio Maringaense de Engenharia
+  de Produção}. [S.l.: s.n.], 2010.}
+
+\bibitem[Sommerville 2011]{Sommerville:Livro}
+\abntrefinfo{Sommerville}{SOMMERVILLE}{2011}
+{SOMMERVILLE, I. \emph{Engenharia de Software}. 9. ed. [S.l.]: Pearson, 2011.}
+
+\bibitem[Steadman 1979]{Steadman:IndiceCalor}
+\abntrefinfo{Steadman}{STEADMAN}{1979}
+{STEADMAN, R.~G. The assessment of sultriness. part i: A temperature-humidity
+  index based on human physiology and clothing science. In:  \emph{Journal of
+  Applied Meteorology}. [S.l.: s.n.], 1979.}
+
 \bibitem[Vianello 2011]{Vianello:Livro}
 \abntrefinfo{Vianello}{VIANELLO}{2011}
 {VIANELLO, R.~L. \emph{Estação Meteorológica e seu Observador}. 1. ed.
   [S.l.]: Instituto Nacional de Meteorologia, 2011.}
+
+\bibitem[Weissmann 2014]{Weissman:MVC}
+\abntrefinfo{Weissmann}{WEISSMANN}{2014}
+{WEISSMANN, H.~L. \emph{Vire o jogo com Spring Framework}. [S.l.]: Casa do
+  Código, 2014.}
 
 \end{thebibliography}

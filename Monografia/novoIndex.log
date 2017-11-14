@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.8)  14 NOV 2017 10:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.8)  14 NOV 2017 12:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1263,7 +1263,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--27
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./source/fichaCatalografica.tex
-Overfull \hbox (38.89902pt too wide) in paragraph at lines 48--49
+Overfull \hbox (38.89902pt too wide) in paragraph at lines 45--46
  [] 
  []
 
@@ -1338,59 +1338,187 @@ Package pdftex.def Info: ./img/contexto.png used on input line 15.
 (pdftex.def)             Requested size: 290.22107pt x 145.11499pt.
  [2 <./img/contexto.png>] [3] [4]
 
-LaTeX Warning: Reference `cap:fundamentacao' on page 5 undefined on input line 64.
+LaTeX Warning: Reference `cap:solucao' on page 5 undefined on input line 66.
 
 
-LaTeX Warning: Reference `cap:solucao' on page 5 undefined on input line 64.
+LaTeX Warning: Reference `cap:consideracoes' on page 5 undefined on input line 66.
+
+) (./files/cap2.tex [5] [6]
+Cap\'{\i }tulo 2.
+(./files/fundamentacao/ema.tex [7
+
+] <./img/ema5.png, id=65, 392.21532pt x 448.67625pt>
+File: ./img/ema5.png Graphic file (type png)
+ <use ./img/ema5.png>
+Package pdftex.def Info: ./img/ema5.png used on input line 11.
+(pdftex.def)             Requested size: 199.7647pt x 228.52747pt.
+
+Overfull \hbox (3.00641pt too wide) in paragraph at lines 17--44
+ [][] 
+ []
+
+[8 <./img/ema5.png>] <./img/ema6.png, id=71, 176.91093pt x 227.34938pt>
+File: ./img/ema6.png Graphic file (type png)
+ <use ./img/ema6.png>
+Package pdftex.def Info: ./img/ema6.png used on input line 72.
+(pdftex.def)             Requested size: 145.11053pt x 186.48666pt.
+ [9] <./img/ema7.png, id=75, 168.63pt x 226.59656pt>
+File: ./img/ema7.png Graphic file (type png)
+ <use ./img/ema7.png>
+Package pdftex.def Info: ./img/ema7.png used on input line 78.
+(pdftex.def)             Requested size: 145.11053pt x 194.99716pt.
+ [10 <./img/ema6.png> <./img/ema7.png>] <./img/ema4.png, id=81, 722.7pt x 484.81125pt>
+File: ./img/ema4.png Graphic file (type png)
+ <use ./img/ema4.png>
+Package pdftex.def Info: ./img/ema4.png used on input line 86.
+(pdftex.def)             Requested size: 362.77264pt x 243.35931pt.
+ [11 <./img/ema4.png>]
+Underfull \hbox (badness 2662) in paragraph at lines 104--104
+[]\T1/aer/m/n/8 `TIMESTAMP', `RE-CORD', `batt_volt_Min', `PTemp', `NR-Lite_Avg', `CM3Up_Avg', `CM3Dn_Avg', `CG3UpCorr_Avg',
+ []
 
 
-LaTeX Warning: Reference `cap:consideracoes' on page 5 undefined on input line 64.
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+\T1/aer/m/n/8 `CG3DnCorr_Avg', `CNR1TC_Avg', `CMA11Up_Avg', `CMA11Dn_Avg', `LI190S_Avg', `VW_Avg', `HFP01_Avg',
+ []
 
-) [5] (./novoIndex.bbl [6]) [7
 
-]
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+\T1/aer/m/n/8 `STP01_50cm_Avg', `STP01_20cm_Avg', `STP01_10cm_Avg', `STP01_5cm_Avg', `STP01_2cm_Avg', `CS106_Avg',
+ []
+
+LaTeX Font Info:    Try loading font information for T1+aess on input line 104.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ae/t1aess.fd
+File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
+)
+Overfull \hbox (12.4638pt too wide) in paragraph at lines 104--106
+ [][] 
+ []
+
+) (./files/fundamentacao/bm.tex <./img/bm.png, id=87, 903.375pt x 315.42844pt>
+File: ./img/bm.png Graphic file (type png)
+ <use ./img/bm.png>
+Package pdftex.def Info: ./img/bm.png used on input line 5.
+(pdftex.def)             Requested size: 435.32422pt x 152.00555pt.
+ [12 <./img/bm.png>] <./img/boclima.png, id=94, 2341.74875pt x 3136.71875pt>
+File: ./img/boclima.png Graphic file (type png)
+ <use ./img/boclima.png>
+Package pdftex.def Info: ./img/boclima.png used on input line 15.
+(pdftex.def)             Requested size: 145.11053pt x 194.36925pt.
+) [13 <./img/boclima.png>] (./files/fundamentacao/ic.tex
+Overfull \hbox (8.48572pt too wide) in alignment at lines 3--7
+ [][][] []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.1638pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14]
+Underfull \hbox (badness 1394) in paragraph at lines 29--30
+\T1/aer/m/n/12 sico. Pos-si-bi-li-dade de da-nos ce-re-
+ []
+
+) (./files/fundamentacao/beaufort.tex [15]) (./files/fundamentacao/aup.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.1638pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.1638pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17]
+LaTeX Font Info:    Try loading font information for OMS+aer on input line 23.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/ae/omsaer.fd
+File: omsaer.fd 1999/12/27
+)
+LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
+ <./img/aupOficial.png, id=114, 660.96938pt x 329.73187pt>
+File: ./img/aupOficial.png Graphic file (type png)
+ <use ./img/aupOficial.png>
+Package pdftex.def Info: ./img/aupOficial.png used on input line 33.
+(pdftex.def)             Requested size: 314.40001pt x 156.84563pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.1638pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18 <./img/aupOficial.png>])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.1638pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19] (./files/fundamentacao/web2py.tex [20] <./img/mvc.png, id=126, 512.91624pt x 212.795pt>
+File: ./img/mvc.png Graphic file (type png)
+ <use ./img/mvc.png>
+Package pdftex.def Info: ./img/mvc.png used on input line 17.
+(pdftex.def)             Requested size: 290.22107pt x 120.40472pt.
+ [21 <./img/mvc.png>])) (./novoIndex.bbl [22] [23
+
+])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.51453pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]
 Ap\^endice A.
-(./files/detalhamento.tex [8
+(./files/detalhamento.tex [25
 
 ]
 Overfull \vbox (295.24544pt too high) has occurred while \output is active []
 
- [9] [10] [11] [12]
+ [26] [27] [28] [29]
 Overfull \vbox (12.94551pt too high) has occurred while \output is active []
 
- [13] [14]
+ [30] [31]
 Overfull \vbox (16.11765pt too high) has occurred while \output is active []
 
- [15]
+ [32]
 Overfull \vbox (300.44551pt too high) has occurred while \output is active []
 
- [16] [17] [18] [19]
+ [33] [34] [35] [36]
 Overfull \vbox (272.44551pt too high) has occurred while \output is active []
 
- [20] [21]
+ [37] [38]
 Overfull \vbox (36.94551pt too high) has occurred while \output is active []
 
- [22])
+ [39])
 Overfull \vbox (163.94551pt too high) has occurred while \output is active []
 
- [23] (./novoIndex.aux)
+ [40] (./novoIndex.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 26802 strings out of 493089
- 535825 string characters out of 6134842
- 534773 words of memory out of 5000000
- 29728 multiletter control sequences out of 15000+600000
- 46420 words of font info for 97 fonts, out of 8000000 for 9000
+ 27031 strings out of 493089
+ 540169 string characters out of 6134842
+ 537701 words of memory out of 5000000
+ 29908 multiletter control sequences out of 15000+600000
+ 59356 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,77p,10410b,697s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on novoIndex.pdf (31 pages, 312373 bytes).
+ 62i,13n,77p,10410b,697s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on novoIndex.pdf (48 pages, 3164299 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
+ 243 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

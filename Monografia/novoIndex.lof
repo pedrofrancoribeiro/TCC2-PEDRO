@@ -2,3 +2,13 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Contexto atual de uma das atividades realizadas pelo LabInstru. Fonte: Pr\IeC {\'o}prio Autor\relax }}{2}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Esta\IeC {\c c}\IeC {\~a}o meteorol\IeC {\'o}gica autom\IeC {\'a}tica da EST e descri\IeC {\c c}\IeC {\~a}o dos seus componentes. Fonte: \cite {Labinstru:EST}.\relax }}{8}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Detalhamento do item 6 da Figura \ref {fig:ema}. O item 1 indica a interface para grava\IeC {\c c}\IeC {\~a}o dos dados, o item 2 indica o \emph {datalogger} e o item 3 indica o bar\IeC {\^o}metro. Fonte: \cite {Labinstru:EST}\relax }}{10}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Detalhamento do item 7 da Figura \ref {fig:ema}, referente \IeC {\`a} transmiss\IeC {\~a}o de dados. O item 1 consiste em um regulador de voltagem, o item 2 em um roteador e o item 3 em uma bateria. Fonte: \cite {Labinstru:EST}\relax }}{10}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Esquema de transmiss\IeC {\~a}o dos dados da esta\IeC {\c c}\IeC {\~a}o meteorol\IeC {\'o}gica. Fonte: \cite {Labinstru:EST}\relax }}{11}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Exemplo de um trecho dos dados encontrados no arquivo produzido pela esta\IeC {\c c}\IeC {\~a}o meteorol\IeC {\'o}gica.\relax }}{12}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Exemplos de boletins meteorol\IeC {\'o}gicos produzidos pelo LabInstru. Fonte: \cite {Labinstru:EST}\relax }}{12}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Exemplos de boletim meteorol\IeC {\'o}gico gerado pelo BoCliMa. \relax }}{13}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Ciclo de vida do AUP.\relax }}{18}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Vis\IeC {\~a}o geral do padr\IeC {\~a}o de projeto MVC. Fonte: \cite {Weissman:MVC} \relax }}{21}
+\addvspace {10\p@ }
