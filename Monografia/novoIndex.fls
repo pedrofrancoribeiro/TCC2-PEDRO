@@ -528,6 +528,11 @@ INPUT ./img/uc003.png
 INPUT img/uc004.png
 INPUT ./img/uc004.png
 INPUT ./img/uc004.png
+INPUT ./files/solucao/modeloConceitual.tex
+INPUT ./files/solucao/modeloConceitual.tex
+INPUT img/ModeloConceitual.png
+INPUT ./img/ModeloConceitual.png
+INPUT ./img/ModeloConceitual.png
 INPUT ./files/solucao/telas.tex
 INPUT ./files/solucao/telas.tex
 INPUT ./img/telas/tela002.png
