@@ -16,6 +16,7 @@
 \contentsline {subsection}{\numberline {2.6.1}Padr\IeC {\~a}o de Projeto MVC}{21}
 \contentsline {chapter}{\numberline {3}Solu\IeC {\c c}\IeC {\~a}o Proposta}{23}
 \contentsline {section}{\numberline {3.1}Processo de Desenvolvimento Adotado}{23}
+<<<<<<< HEAD
 \contentsline {section}{\numberline {3.2}Modelo Conceitual}{24}
 \contentsline {section}{\numberline {3.3}Modelo Entidade Relacionamento - MER}{26}
 \contentsline {section}{\numberline {3.4}Diagramas de Caso de Uso}{27}
@@ -24,3 +25,12 @@
 \contentsline {section}{\numberline {3.7}Apresenta\IeC {\c c}\IeC {\~a}o da Plataforma}{36}
 \contentsline {section}{\numberline {3.8}Modelo para Boletim Meteorol\IeC {\'o}gico}{41}
 \contentsline {chapter}{\numberline {A}Detalhamento dos Casos de Uso}{46}
+=======
+\contentsline {section}{\numberline {3.2}Diagramas de Caso de Uso}{24}
+\contentsline {section}{\numberline {3.3}Modelo Conceitual}{27}
+\contentsline {section}{\numberline {3.4}Prototipa\IeC {\c c}\IeC {\~a}o das Telas do Usu\IeC {\'a}rio}{29}
+\contentsline {section}{\numberline {3.5}Tecnologias Utilizadas}{34}
+\contentsline {section}{\numberline {3.6}Apresenta\IeC {\c c}\IeC {\~a}o da Plataforma}{35}
+\contentsline {section}{\numberline {3.7}Modelo para Boletim Meteorol\IeC {\'o}gico}{40}
+\contentsline {chapter}{\numberline {A}Detalhamento dos Casos de Uso}{45}
+>>>>>>> 0e85cada7e845ea0577e1ecd461bcdb6aaeeb6d3
