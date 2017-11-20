@@ -57,6 +57,11 @@ Acessado em \today.}
   \url{http://www.metoffice.gov.uk/binaries/content/assets/mohippo/pdf/b/7/fact_sheet_no._6.pdf}.
 Acessado em \today.}
 
+\bibitem[Navathe 2011]{Navathe:Livro}
+\abntrefinfo{Navathe}{NAVATHE}{2011}
+{NAVATHE, S.~B. \emph{Sistemas de banco de dados}. 6. ed. [S.l.]: Pearson,
+  2011.}
+
 \bibitem[Oliveira 2016]{Labinstru:EST}
 \abntrefinfo{Oliveira}{OLIVEIRA}{2016}
 {OLIVEIRA, M. B.~L. 2016.

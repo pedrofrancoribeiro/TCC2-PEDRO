@@ -48,10 +48,6 @@ db.define_table('baixa2',
     Field('tb4_tot','double',label='tb4_tot')
 )
 
-db.define_table('aluno',
-     Field('name'),
-     Field('sobrenome'))
-
 #lista de campos do baixa 1
 baixa1_field=[db.baixa1.dia_hora,db.baixa1.record,db.baixa1.batt_volt_min,db.baixa1.p_temp,db.baixa1.nr_lite_avg,
                 db.baixa1.cm3_up_avg,db.baixa1.cm3_dn_avg,db.baixa1.cg3_up_corr_avg,db.baixa1.cg3_dn_corr_avg,

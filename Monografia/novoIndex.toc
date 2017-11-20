@@ -3,31 +3,6 @@
 \contentsline {chapter}{Lista de Figuras}{ix}
 \contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}
 \contentsline {section}{\numberline {1.1}Objetivos}{3}
-<<<<<<< HEAD
-\contentsline {section}{\numberline {1.2}Justificativa}{4}
-\contentsline {section}{\numberline {1.3}Metodologia}{5}
-\contentsline {section}{\numberline {1.4}Cronograma}{6}
-\contentsline {section}{\numberline {1.5}Organiza\IeC {\c c}\IeC {\~a}o do Documento}{7}
-\contentsline {chapter}{\numberline {2}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{8}
-\contentsline {section}{\numberline {2.1}Esta\IeC {\c c}\IeC {\~a}o Meteorol\IeC {\'o}gica Autom\IeC {\'a}tica da EST}{8}
-\contentsline {section}{\numberline {2.2}Boletim Meteorol\IeC {\'o}gico do LabInstru}{14}
-\contentsline {section}{\numberline {2.3}\IeC {\'I}ndice de Calor}{16}
-\contentsline {section}{\numberline {2.4}Escala de Beaufort}{17}
-\contentsline {section}{\numberline {2.5}Processo Unificado \IeC {\'A}gil}{18}
-\contentsline {section}{\numberline {2.6}\emph {Framework} Web2py}{22}
-\contentsline {subsection}{\numberline {2.6.1}Padr\IeC {\~a}o de Projeto MVC}{23}
-\contentsline {chapter}{\numberline {3}Solu\IeC {\c c}\IeC {\~a}o Proposta}{25}
-\contentsline {section}{\numberline {3.1}Processo de Desenvolvimento Adotado}{25}
-\contentsline {section}{\numberline {3.2}Modelo Conceitual}{26}
-\contentsline {section}{\numberline {3.3}Diagramas de Caso de Uso}{28}
-\contentsline {section}{\numberline {3.4}Agenda de Implementa\IeC {\c c}\IeC {\~a}o}{30}
-\contentsline {section}{\numberline {3.5}Prototipa\IeC {\c c}\IeC {\~a}o das Telas do Usu\IeC {\'a}rio}{31}
-\contentsline {section}{\numberline {3.6}Tecnologias Utilizadas}{39}
-\contentsline {section}{\numberline {3.7}Apresenta\IeC {\c c}\IeC {\~a}o da Plataforma}{40}
-\contentsline {section}{\numberline {3.8}Modelo para Boletim Meteorol\IeC {\'o}gico}{47}
-\contentsline {chapter}{\numberline {4}Considera\IeC {\c c}\IeC {\~o}es Finais}{49}
-\contentsline {chapter}{\numberline {A}Detalhamento dos Casos de Uso}{53}
-=======
 \contentsline {section}{\numberline {1.2}Justificativa}{3}
 \contentsline {section}{\numberline {1.3}Metodologia}{4}
 \contentsline {section}{\numberline {1.4}Organiza\IeC {\c c}\IeC {\~a}o do Documento}{5}
@@ -41,10 +16,11 @@
 \contentsline {subsection}{\numberline {2.6.1}Padr\IeC {\~a}o de Projeto MVC}{21}
 \contentsline {chapter}{\numberline {3}Solu\IeC {\c c}\IeC {\~a}o Proposta}{23}
 \contentsline {section}{\numberline {3.1}Processo de Desenvolvimento Adotado}{23}
-\contentsline {section}{\numberline {3.2}Diagramas de Caso de Uso}{24}
-\contentsline {section}{\numberline {3.3}Prototipa\IeC {\c c}\IeC {\~a}o das Telas do Usu\IeC {\'a}rio}{27}
-\contentsline {section}{\numberline {3.4}Tecnologias Utilizadas}{33}
-\contentsline {section}{\numberline {3.5}Apresenta\IeC {\c c}\IeC {\~a}o da Plataforma}{34}
-\contentsline {section}{\numberline {3.6}Modelo para Boletim Meteorol\IeC {\'o}gico}{39}
-\contentsline {chapter}{\numberline {A}Detalhamento dos Casos de Uso}{44}
->>>>>>> eea18a4e17b551e3093b227c7259e8e3097eb6a2
+\contentsline {section}{\numberline {3.2}Modelo Conceitual}{24}
+\contentsline {section}{\numberline {3.3}Modelo Entidade Relacionamento - MER}{26}
+\contentsline {section}{\numberline {3.4}Diagramas de Caso de Uso}{27}
+\contentsline {section}{\numberline {3.5}Prototipa\IeC {\c c}\IeC {\~a}o das Telas do Usu\IeC {\'a}rio}{29}
+\contentsline {section}{\numberline {3.6}Tecnologias Utilizadas}{35}
+\contentsline {section}{\numberline {3.7}Apresenta\IeC {\c c}\IeC {\~a}o da Plataforma}{36}
+\contentsline {section}{\numberline {3.8}Modelo para Boletim Meteorol\IeC {\'o}gico}{41}
+\contentsline {chapter}{\numberline {A}Detalhamento dos Casos de Uso}{46}
