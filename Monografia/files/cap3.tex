@@ -1,36 +1,39 @@
 \chapter{Solução Proposta} \label{cap:solucao}
 
-Em resposta aos problemas identificados para processar as informações geradas pela estação meteorológica da EST e geração dos boletins meteorológicos, este trabalho se propôs a projetar e implementar uma plataforma web para gerenciamento de dados e geração de boletins meteorológicos do LabInstru. As seções a seguir apresentam artefatos resultantes da análise do problema e da concepção da solução proposta, detalhando os elementos que a caracterizam.
+Em resposta aos problemas identificados para processar as informações geradas pela estação meteorológica da EST e geração dos boletins meteorológicos, este trabalho se propôs a projetar e implementar uma plataforma web -- denominada \emph{LabInstru Web} -- para gerenciamento de dados e geração de boletins meteorológicos do LabInstru. Esta plataforma, implementada com o \emph{framework full-stack} Web2py, banco de dados MySQL, e tecnologias como Bootstrap e JQuery, permite a manutenção dos dados oriundos da Estação Meteorológica da EST, possibilitando a consulta de calendários de disponibilidade, geração de gráficos e produção de um boletim meteorológico detalhado, contendo as informações coletadas ao longo de uma dia pela estação, índice de calor e rajada de vento.
+
+Para apresentar a solução proposta, este capítulo está organizado como segue. O processo de desenvolvimento adotado é detalhado na Seção \ref{sec:processoAdotado}. Os elementos da modelagem, incluindo os diagramas de casos de uso, modelos conceitual e de entidade-relacionamento bem como a prototipação da interface gráfica com o usuário, são apresentados nas Seções \ref{sec:casoUso}-\ref{sec:prototipo}. A descrição das tecnologias utilizadas pode ser consultada na Seção \ref{sec:tecnologias}. A apresentação da solução proposta pode ser vista na Seção \ref{sec:apresenta}, em particular, com  detalhamentos para a geração de boletins meteorológicos, discussão sobre a não-implantação de uma das funcionalidades previamente mapeadas, e algumas métricas derivadas da solução proposta. Por fim, o ambiente de implantação da solução é mostrado na Seção \ref{sec:implantancao}.
 
 
-\section{Processo de Desenvolvimento Adotado}
+\section{Processo de Desenvolvimento Adotado} \label{sec:processoAdotado}
 \input{./files/solucao/processos}
 
-<<<<<<< HEAD
-\section{Modelo Conceitual}
-\input{./files/solucao/modeloConceitual}
-
-\section{Modelo Entidade Relacionamento - MER}
-\input{./files/solucao/mer}
-
-=======
->>>>>>> 0e85cada7e845ea0577e1ecd461bcdb6aaeeb6d3
-\section{Diagramas de Caso de Uso}
+\section{Diagramas de Caso de Uso} \label{sec:casoUso}
 \input{./files/solucao/diagramas}
 
 \section{Modelo Conceitual}
 \input{./files/solucao/modeloConceitual}
 
-\section{Prototipação das Telas do Usuário}
+\section{Modelo Entidade-Relacionamento}
+\input{./files/solucao/mer}
+
+\section{Prototipação das Telas do Usuário} \label{sec:prototipo}
 \input{./files/solucao/telas}
 
-\section{Tecnologias Utilizadas}
+\section{Tecnologias Utilizadas} \label{sec:tecnologias}
 \input{./files/solucao/tecnologias}
 
-\section{Apresentação da Plataforma}
+\section{Apresentação da Plataforma} \label{sec:apresenta}
 \input{./files/solucao/apresentacaoPlataforma}
 
-\section{Implantação da Solução Proposta}
-
-\section{Modelo para Boletim Meteorológico}
+\subsection{Geração do Boletim Meteorológico}
 \input{./files/solucao/modeloBoletim}
+
+\subsection{Suspensão da Funcionalidade de Geração de Gráficos}
+\input{./files/solucao/graficos}
+
+\subsection{Métricas de Software} \label{sec:metricas}
+\input{./files/solucao/metricas}
+
+\section{Implantação da Solução Proposta} \label{sec:implantancao}
+\input{./files/solucao/implantacao}

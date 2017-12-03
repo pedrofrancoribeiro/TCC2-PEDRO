@@ -51,6 +51,11 @@ Acessado em \today.}
   Internacional de la Universidad de Holguín}. Holguín, Cuba: [s.n.], 2015.
   p.~1--8.}
 
+\bibitem[Lutz e Ascher 2007]{Lutz:AprendendoPython}
+\abntrefinfo{Lutz e Ascher}{LUTZ; ASCHER}{2007}
+{LUTZ, M.; ASCHER, D. \emph{Aprendendo Python}. Porto Alegre, Rio Grande do
+  Sul: Editora O'Reilly, 2007.}
+
 \bibitem[MetOffice 2011]{MetOffice:Beaufort}
 \abntrefinfo{MetOffice}{METOFFICE}{2011}
 {METOFFICE, N. M.~L. \emph{The Beaufort Scale}. 2011.
