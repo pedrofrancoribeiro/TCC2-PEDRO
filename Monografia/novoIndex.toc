@@ -22,8 +22,9 @@
 \contentsline {section}{\numberline {3.5}Prototipa\IeC {\c c}\IeC {\~a}o das Telas do Usu\IeC {\'a}rio}{30}
 \contentsline {section}{\numberline {3.6}Tecnologias Utilizadas}{35}
 \contentsline {section}{\numberline {3.7}Apresenta\IeC {\c c}\IeC {\~a}o da Plataforma}{36}
-\contentsline {subsection}{\numberline {3.7.1}Gera\IeC {\c c}\IeC {\~a}o do Boletim Meteorol\IeC {\'o}gico}{42}
-\contentsline {subsection}{\numberline {3.7.2}Suspens\IeC {\~a}o da Funcionalidade de Gera\IeC {\c c}\IeC {\~a}o de Gr\IeC {\'a}ficos}{43}
-\contentsline {subsection}{\numberline {3.7.3}M\IeC {\'e}tricas de Software}{44}
-\contentsline {section}{\numberline {3.8}Implanta\IeC {\c c}\IeC {\~a}o da Solu\IeC {\c c}\IeC {\~a}o Proposta}{45}
-\contentsline {chapter}{\numberline {A}Detalhamento dos Casos de Uso}{49}
+\contentsline {subsection}{\numberline {3.7.1}Gera\IeC {\c c}\IeC {\~a}o do Boletim Meteorol\IeC {\'o}gico}{43}
+\contentsline {subsection}{\numberline {3.7.2}Suspens\IeC {\~a}o da Funcionalidade de Gera\IeC {\c c}\IeC {\~a}o de Gr\IeC {\'a}ficos}{44}
+\contentsline {subsection}{\numberline {3.7.3}M\IeC {\'e}tricas de Software}{45}
+\contentsline {section}{\numberline {3.8}Implanta\IeC {\c c}\IeC {\~a}o da Solu\IeC {\c c}\IeC {\~a}o Proposta}{46}
+\contentsline {chapter}{\numberline {4}Considera\IeC {\c c}\IeC {\~o}es Finais}{47}
+\contentsline {chapter}{\numberline {A}Detalhamento dos Casos de Uso}{51}

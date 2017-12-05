@@ -52,7 +52,7 @@ O administrador também fica responsável por cadastrar usuários, vide Figura \
 
 Um menu superior, mostrado na Figura \ref{fig:ap1}, permite a autenticação dos usuários e também mostra as principais funcionalidades disponíveis na plataforma após realizada autenticação no sistema. Este menu é renderizado conforme o perfil do usuário. Por exemplo, o menu mostrado ao administrador dispõe da funcionalidade de apagar medições, funcionalidade não disponível no menu mostrado a um usuário. Os menus correspondentes aos diferentes perfis de usuário são ilustrados na Figura \ref{fig:ap8}. Ressalta-se que, independentemente do tipo do perfil de usuário, as principais funcionalidades da plataforma só poderão ser acessadas mediante prévia autenticação na plataforma via login e senha.
 
-\todo{Nova versão da figura, refletindo o novo menu}
+
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.9\textwidth]{./img/ap8.png}
@@ -76,7 +76,7 @@ As funcionalidades que permitem a mudança de senha e alteração de seus dados 
 
 Os usuários da plataforma \emph{LabInstru Web} acessam os dados da estação meteorológica da EST por meio de consultas, nas quais fornecem datas iniciais e finais e escolhem as variáveis de interesse, conforme ilustrado na Figura \ref{fig:ap3}. Considerou-se como uma restrição essencial para garantir a integridade e a confiabilidade dos dados que apenas o administrador seria responsável por cadastrá-los.
 
-\todo{Atualizar esta figura}
+
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.9\textwidth]{./img/ap3.png}
@@ -89,4 +89,12 @@ Os resultados de uma consulta são exibidos em uma página apropriada, onde há 
 	\centering
 	\includegraphics[width=0.9\textwidth]{./img/ap7.png}
 	\caption{Página responsável por exibir o resultado de uma consulta. Fonte: Próprio Autor} \label{fig:ap7}
+\end{figure}
+
+A verificação de disponibilidade também foi implementada no LabInstru Web. Recapitulando, tem-se que falhas na estação meteorológica podem resultar em medições faltantes ou ausentes em um determinado dia. Assim, deseja-se saber qual o status de um determinado mês quanto ao número de dias com medições completas, incompletas ou ausentes. Para tanto, conforme ilustrado na Figura \ref{fig:consultaDisp}, o usuário seleciona um determinado mês e ano e o status dos dias daquele mês é exibido segundo um esquema de cores, em que a cor verde indica que todas as medições foram realizadas, a cor amarela indica que há medições incompletas e a cor vermelha indica que não foram realizadas medições naquele dia. Alguns \emph{scripts} foram desenvolvidos com o intuito de auxiliar aspectos de usabilidade, evitando que o usuário informe datas inválidas, a exemplo de mês e ano futuros ou meses e anos passados mas anteriores ao início do funcionamento da estação. É importante enfatizar que estas regras são continuamente atualizadas automaticamente mediante, por exemplo, a inserção de novas medições na estação.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./img/disponibilidade2.png}
+	\caption{Exemplo de calendário resultante da consulta de disponibilidade de medições. Fonte: Próprio Autor} \label{fig:consultaDisp}
 \end{figure}
