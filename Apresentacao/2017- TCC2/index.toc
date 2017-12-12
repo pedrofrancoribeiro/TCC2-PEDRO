@@ -2,4 +2,4 @@
 \select@language {brazil}
 \beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o}{2}{0}{1}
 \beamer@sectionintoc {2}{Solu\IeC {\c c}\IeC {\~a}o Proposta}{9}{0}{2}
-\beamer@sectionintoc {3}{Considera\IeC {\c c}\IeC {\~o}es Parciais}{26}{0}{3}
+\beamer@sectionintoc {3}{Considera\IeC {\c c}\IeC {\~o}es Finais}{26}{0}{3}
