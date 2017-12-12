@@ -1,0 +1,63 @@
+\documentclass[dvipsnames,table,mathserif,aspectratio=169]{beamer} % Definição do tipo de arquivo
+
+\usepackage[T1]{fontenc}     	 %---------------------------------%
+\usepackage[utf8]{inputenc} 	 % Para língua portuguesa          %
+\usepackage[brazil]{babel}    %---------------------------------%
+\usepackage{times}
+\usepackage[framesassubsections]{beamerprosper} % opiniõs: email, institution,
+\usepackage{algorithmic}
+\usepackage{graphicx,url}
+\usepackage{enumerate}
+\usepackage{amsmath,amsfonts,amsthm,bbm,amssymb}
+\usepackage{epsfig}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{scalefnt}
+\usepackage[caption=true,font=footnotesize]{subfig}
+\usepackage{multimedia}
+
+\usepackage[round]{natbib}
+\bibpunct{(}{)}{;}{a}{}{;}
+
+%\newcommand{\newblock}{}
+\usetheme{CambridgeUS}
+\usecolortheme{whale}
+%\renewcommand{\sfdefault}{times}
+\setbeamercolor{alerted text}{fg=blue!80!black}
+\setbeamercolor{frametitle}{fg=blue!80!black}
+\setbeamercolor{block title}{bg=blue!90!black,fg=white}
+\beamertemplatetransparentcovereddynamicmedium
+
+\title[]{\textbf{Uma Plataforma Web para Gerenciamento de Dados e Geração de Boletins Meteorológicos do LabInstru}\\ \small{Trabalho de Conclusão de Curso II}}
+
+\author[Pedro Ribeiro]{Pedro Augusto Franco Ribeiro, Elloá B. Guedes, Maria Betânia Leal de Oliveira\\\email{\{pafr.eng, ebgcosta, mloliveira\}@uea.edu.br}}
+\institute[NUCOMP, EST, UEA]
+{
+  Núcleo de Computação\\
+  Escola Superior de Tecnologia\\
+  Universidade do Estado do Amazonas\\
+  Manaus -- Amazonas -- Brasil
+}
+
+\begin{document}
+\selectlanguage{brazil}
+
+\maketitle % Título da apresentaï¿½ï¿½o
+
+\AtBeginSection[]
+{
+	\begin{frame}{Outline}
+		\tableofcontents[currentsection]
+	\end{frame}
+}
+
+\section{Introdução}
+\input{./files/introducao}
+
+\section{Solução Proposta}
+\input{./files/solucao}
+
+\section{Considerações Parciais}
+\input{./files/consideracoes}
+
+\end{document}

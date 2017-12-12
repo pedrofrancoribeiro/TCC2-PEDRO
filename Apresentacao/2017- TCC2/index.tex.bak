@@ -1,0 +1,80 @@
+\documentclass[dvipsnames,table,mathserif,aspectratio=169]{beamer} % Definição do tipo de arquivo
+
+\usepackage[T1]{fontenc}      %---------------------------------%
+\usepackage[latin1]{inputenc} % Para língua portuguesa          %
+\usepackage[brazil]{babel}    %---------------------------------%
+\usepackage{times}
+\usepackage[framesassubsections]{beamerprosper} % opções: email, institution,
+\usepackage{algorithmic}
+\usepackage{graphicx,url}
+\usepackage{enumerate}
+
+\usepackage{amsmath,amsfonts,amsthm,bbm,amssymb}
+\usepackage{epsfig}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{scalefnt}
+\usepackage[caption=true,font=footnotesize]{subfig}
+
+\input{Qcircuit}
+\usepackage[round]{natbib}
+\bibpunct{(}{)}{;}{a}{}{;}
+
+%\newcommand{\newblock}{}
+\usetheme{CambridgeUS}
+\usecolortheme{whale}
+%\renewcommand{\sfdefault}{times}
+\setbeamercolor{alerted text}{fg=blue!80!black}
+\setbeamercolor{frametitle}{fg=blue!80!black}
+\setbeamercolor{block title}{bg=blue!90!black,fg=white}
+\beamertemplatetransparentcovereddynamicmedium
+
+\DeclareMathOperator{\QFT}{QFT}
+
+\def\one{\mathbbm{1}}
+
+\title{\textbf{Uma Abordagem Baseada em Redes Neurais para a \\Predição de Chuva em Manaus, Amazonas}\\ \small{I Congresso Amazônico de Computação e Sistemas Inteligentes}}
+
+\author[Rachel Lima]{Rachel Batalha de Lima, Elloá B. Guedes\\\email{\{rbdl.eng, ebgcosta\}@uea.edu.br}}
+\institute[NUCOMP, EST, UEA]
+{
+  Núcleo de Computação\\
+  Escola Superior de Tecnologia\\
+  Universidade do Estado do Amazonas\\
+  Manaus -- Amazonas -- Brasil
+}
+
+\begin{document}
+\selectlanguage{brazil}
+
+\maketitle % Título da apresentação
+
+\begin{frame}{Outline}
+\tableofcontents
+\end{frame}
+
+\section{Motivação}
+\input{./file/motivacao}
+
+\begin{frame}{Outline}
+\tableofcontents
+\end{frame}
+
+\section{Transformada Quântica de Fourier}
+\input{./file/qft}
+
+\begin{frame}{Outline}
+\tableofcontents
+\end{frame}
+
+\section{Implementação da Interface Gráfica para o FTSimulator}
+\input{./file/implementa}
+
+\begin{frame}{Outline}
+\tableofcontents
+\end{frame}
+
+\section{Considerações Finais}
+\input{./file/considera}
+
+\end{document} 
