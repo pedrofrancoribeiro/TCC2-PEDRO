@@ -5,43 +5,42 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.5 }
 
-\bibitem[affiliates 2017]{MySql:MySql}
-\abntrefinfo{affiliates}{AFFILIATES}{2017a}
-{AFFILIATES, O.~C. and/or~its. 2017. \url{https://dev.mysql.com/doc/}.
-Acessado em \today.}
+\bibitem[Ambler 2004]{Ambler:Livro}
+\abntrefinfo{Ambler}{AMBLER}{2004}
+{AMBLER, S. \emph{Modelagem Ágil -- Práticas eficazes para a programação
+  extrema e o processo unificado}. 1. ed. Nova York: Bookman, 2004.}
 
-\bibitem[affiliates 2017]{MySql:WorkBench}
-\abntrefinfo{affiliates}{AFFILIATES}{2017b}
-{AFFILIATES, O.~C. and/or~its. 2017.
-  \url{https://dev.mysql.com/doc/workbench/en/}.
+\bibitem[Balsamiq 2017]{Prototipacao:Mockups}
+\abntrefinfo{Balsamiq}{BALSAMIQ}{2017}
+{BALSAMIQ. \emph{Balsamiq Mockups}. 2017.
+  \url{https://balsamiq.com/products/mockups/}.
 Acessado em \today.}
-
-\bibitem[Ambler 2006]{Ambler:Livro}
-\abntrefinfo{Ambler}{AMBLER}{2006}
-{AMBLER, S. \emph{Modelagem Ágil}. 1. ed. [S.l.]: Bookman, 2006.}
 
 \bibitem[Beck et al. 2001]{KentBeck:ManifestoAgil}
 \abntrefinfo{Beck et al.}{BECK et al.}{2001}
 {BECK, K. et al. \emph{Manifesto para o {D}esenvolvimento {Á}gil de
-  {S}oftware}. 2001. \url{https://www.manifestoagil.com.br}.}
+  {S}oftware}. 2001. \url{https://www.manifestoagil.com.br}.
+Acessado em \today.}
 
 \bibitem[Duarte 2016]{Duarte:Web2py}
 \abntrefinfo{Duarte}{DUARTE}{2016}
 {DUARTE, M. \emph{Primeiros Passos com {Web2py}}. Porto Alegre: Amazon, 2016.}
 
-\bibitem[Duckett 2015]{Duckett:JS}
-\abntrefinfo{Duckett}{DUCKETT}{2015}
-{DUCKETT, J. \emph{Javascript e Jquery - Desenvolvimento de Interfaces Web
-  Interativas}. 1. ed. [S.l.]: Alta Books, 2015.}
+\bibitem[Duckett 2016]{Duckett:JS}
+\abntrefinfo{Duckett}{DUCKETT}{2016}
+{DUCKETT, J. \emph{Javascript e {JQuery} - Desenvolvimento de Interfaces Web
+  Interativas}. 1. ed. Estados Unidos: Alta Books, 2016.}
 
-\bibitem[Gordon et al. 2012]{Gordon:Web2pycookbook}
-\abntrefinfo{Gordon et al.}{GORDON et al.}{2012}
-{GORDON, R. et al. \emph{web2py Application Development Cookbook}. [S.l.]:
-  Packt Publishing, 2012.}
+\bibitem[Elmasri e Navathe 2011]{Navathe:Livro}
+\abntrefinfo{Elmasri e Navathe}{ELMASRI; NAVATHE}{2011}
+{ELMASRI, R.; NAVATHE, S.~B. \emph{Sistemas de banco de dados}. 6. ed. Estados
+  Unidos: Pearson, 2011.}
 
-\bibitem[Larman 2005]{Larman:Livro}
-\abntrefinfo{Larman}{LARMAN}{2005}
-{LARMAN, C. \emph{Utilizando {UML} e Padrões}. 3. ed. [S.l.]: Bookman, 2005.}
+\bibitem[Larman 2006]{Larman:Livro}
+\abntrefinfo{Larman}{LARMAN}{2006}
+{LARMAN, C. \emph{Utilizando {UML} e Padrões -- Uma Introdução à Análise e
+  ao Projeto Orientados a Objetos e ao Desenvolvimento Iterativo}. 3. ed.
+  Estados Unidos: Bookman, 2006.}
 
 \bibitem[Lima, Guedes e Oliveira 2015]{Lima:Artigo}
 \abntrefinfo{Lima, Guedes e Oliveira}{LIMA; GUEDES; OLIVEIRA}{2015}
@@ -51,78 +50,90 @@ Acessado em \today.}
   Internacional de la Universidad de Holguín}. Holguín, Cuba: [s.n.], 2015.
   p.~1--8.}
 
+\bibitem[Lutz e Ascher 2007]{Lutz:AprendendoPython}
+\abntrefinfo{Lutz e Ascher}{LUTZ; ASCHER}{2007}
+{LUTZ, M.; ASCHER, D. \emph{Aprendendo Python}. Porto Alegre, Rio Grande do
+  Sul: Editora O'Reilly, 2007.}
+
 \bibitem[MetOffice 2011]{MetOffice:Beaufort}
 \abntrefinfo{MetOffice}{METOFFICE}{2011}
 {METOFFICE, N. M.~L. \emph{The Beaufort Scale}. 2011.
   \url{http://www.metoffice.gov.uk/binaries/content/assets/mohippo/pdf/b/7/fact_sheet_no._6.pdf}.
 Acessado em \today.}
 
-\bibitem[Navathe 2011]{Navathe:Livro}
-\abntrefinfo{Navathe}{NAVATHE}{2011}
-{NAVATHE, S.~B. \emph{Sistemas de banco de dados}. 6. ed. [S.l.]: Pearson,
-  2011.}
-
 \bibitem[Oliveira 2016]{Labinstru:EST}
 \abntrefinfo{Oliveira}{OLIVEIRA}{2016}
-{OLIVEIRA, M. B.~L. 2016.
-  \url{https://sites.google.com/a/uea.edu.br/labinstru/}.
+{OLIVEIRA, M. B.~L. \emph{Laboratório de Instrumentação Meteorológica}.
+  2016. \url{https://sites.google.com/a/uea.edu.br/labinstru/}.
+Acessado em \today.}
+
+\bibitem[Oracle 2017]{MySql:MySql}
+\abntrefinfo{Oracle}{ORACLE}{2017a}
+{ORACLE. \emph{{MySQL}}. 2017. \url{https://dev.mysql.com/doc/}.
+Acessado em \today.}
+
+\bibitem[Oracle 2017]{MySql:WorkBench}
+\abntrefinfo{Oracle}{ORACLE}{2017b}
+{ORACLE. \emph{{MySQL} workbench}. 2017.
+  \url{https://dev.mysql.com/doc/workbench/en/}.
 Acessado em \today.}
 
 \bibitem[Pierro 2013]{Pierro:Livro}
 \abntrefinfo{Pierro}{PIERRO}{2013}
-{PIERRO, M.~D. \emph{WEB2PY Complete Reference Manual}. 5. ed. [S.l.]:
-  Experts4Solutions, 2013.}
+{PIERRO, M.~D. \emph{Web2py Complete Reference Manual}. 5. ed. Chicago, Estados
+  Unidos: Experts4Solutions, 2013.}
 
 \bibitem[Pressman 2016]{Pressman:Livro}
 \abntrefinfo{Pressman}{PRESSMAN}{2016}
-{PRESSMAN, R. \emph{Engenharia de Software}. 8. ed. [S.l.]: Amgh Editora,
-  2016.}
+{PRESSMAN, R. \emph{Engenharia de Software}. 8. ed. Estados Unidos: Amgh
+  Editora, 2016.}
+
+\bibitem[Reingart et al. 2012]{Gordon:Web2pycookbook}
+\abntrefinfo{Reingart et al.}{REINGART et al.}{2012}
+{REINGART, M. et al. \emph{Web2py Application Development Cookbook}. Reino
+  Unido: Packt Publishing, 2012.}
 
 \bibitem[Rothfusz 1990]{Rothfusz:HeatIndex}
 \abntrefinfo{Rothfusz}{ROTHFUSZ}{1990}
 {ROTHFUSZ, L.~P. \emph{The heat index equation (or, more than you ever wanted
-  to know about heat index)}.
-[S.l.], 1990.}
-
-\bibitem[Sentelhas 2007]{Sentelhas:EscalaBeaufort}
-\abntrefinfo{Sentelhas}{SENTELHAS}{2007}
-{SENTELHAS, P.~C. Application of the csm-ceres-maize model for planting date
-  evaluation and yield forecasting for maize grown off-season in a subtropical
-  environment. In:  \emph{European Journal of Agronomy}. [S.l.: s.n.], 2007.}
+  to know about heat index)}. Estados Unidos: [s.n.], 1990. NWS Southern Region
+  Technical Attachment, SR/SSD 90-23.}
 
 \bibitem[Silva 2015]{Silva:Livro}
 \abntrefinfo{Silva}{SILVA}{2015}
-{SILVA, M.~S. \emph{Bootstrap 3.3.5}. 1. ed. [S.l.]: Novatec, 2015.}
+{SILVA, M.~S. \emph{Bootstrap 3.3.5}. 1. ed. São Paulo: Novatec, 2015.}
 
 \bibitem[Silva e Almeida 2010]{Silva:CalorTrabalho}
 \abntrefinfo{Silva e Almeida}{SILVA; ALMEIDA}{2010}
 {SILVA, T.~L. da; ALMEIDA, V.~C. Influência do calor sobre a saúde e
   desempenho dos trabalhadores. In:  \emph{Simpósio Maringaense de Engenharia
-  de Produção}. [S.l.: s.n.], 2010.}
+  de Produção}. Maringá, Paraná: [s.n.], 2010. v.~4.}
+
+\bibitem[Soler, Sentelhas e Hoogenboom 2007]{Sentelhas:EscalaBeaufort}
+\abntrefinfo{Soler, Sentelhas e Hoogenboom}{SOLER; SENTELHAS; HOOGENBOOM}{2007}
+{SOLER, C. M.~T.; SENTELHAS, P.~C.; HOOGENBOOM, G. \emph{Application of the
+  {CSM-CERES-Maize} model for planting date evaluation and yield forecasting
+  for maize grown off-season in a subtropical environment}. 2007. 165-177~p.}
 
 \bibitem[Sommerville 2011]{Sommerville:Livro}
 \abntrefinfo{Sommerville}{SOMMERVILLE}{2011}
-{SOMMERVILLE, I. \emph{Engenharia de Software}. 9. ed. [S.l.]: Pearson, 2011.}
+{SOMMERVILLE, I. \emph{Engenharia de Software}. 9. ed. Estados Unidos: Pearson,
+  2011.}
 
 \bibitem[Steadman 1979]{Steadman:IndiceCalor}
 \abntrefinfo{Steadman}{STEADMAN}{1979}
 {STEADMAN, R.~G. The assessment of sultriness. part i: A temperature-humidity
-  index based on human physiology and clothing science. In:  \emph{Journal of
-  Applied Meteorology}. [S.l.: s.n.], 1979.}
-
-\bibitem[Studios 2017]{Prototipacao:Mockups}
-\abntrefinfo{Studios}{STUDIOS}{2017}
-{STUDIOS, B. 2017. \url{https://balsamiq.com/products/mockups/}.
-Acessado em \today.}
+  index based on human physiology and clothing science.
+v.~8:7, p. 861--873, 1979.}
 
 \bibitem[Vianello 2011]{Vianello:Livro}
 \abntrefinfo{Vianello}{VIANELLO}{2011}
 {VIANELLO, R.~L. \emph{Estação Meteorológica e seu Observador}. 1. ed.
-  [S.l.]: Instituto Nacional de Meteorologia, 2011.}
+  Brasília: Instituto Nacional de Meteorologia, 2011.}
 
 \bibitem[Weissmann 2014]{Weissman:MVC}
 \abntrefinfo{Weissmann}{WEISSMANN}{2014}
-{WEISSMANN, H.~L. \emph{Vire o jogo com Spring Framework}. [S.l.]: Casa do
+{WEISSMANN, H.~L. \emph{Vire o jogo com Spring Framework}. Brasil: Casa do
   Código, 2014.}
 
 \end{thebibliography}

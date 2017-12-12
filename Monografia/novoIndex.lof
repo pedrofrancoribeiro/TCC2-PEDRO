@@ -12,13 +12,12 @@
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Ciclo de vida do AUP.\relax }}{18}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Vis\IeC {\~a}o geral do padr\IeC {\~a}o de projeto MVC. Fonte: \cite {Weissman:MVC} \relax }}{21}
 \addvspace {10\p@ }
-<<<<<<< HEAD
-\contentsline {figure}{\numberline {3.1}{\ignorespaces M\IeC {\'o}delo Conceitual - LabInstru Web.\relax }}{25}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces M\IeC {\'o}delo Entidade Relacionamento - LabInstru Web.\relax }}{26}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Caso de Uso - M\IeC {\'o}dulo Gerencia Conta de Usu\IeC {\'a}rio.\relax }}{27}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Caso de Uso - M\IeC {\'o}dulo Usu\IeC {\'a}rio.\relax }}{28}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Caso de Uso - M\IeC {\'o}dulo Consulta Medi\IeC {\c c}\IeC {\~o}es.\relax }}{28}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Caso de Uso - M\IeC {\'o}dulo Gerencia Medi\IeC {\c c}\IeC {\~o}es.\relax }}{29}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Caso de Uso - M\IeC {\'o}dulo Gerencia Conta de Usu\IeC {\'a}rio.\relax }}{25}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Caso de Uso - M\IeC {\'o}dulo Usu\IeC {\'a}rio.\relax }}{26}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Caso de Uso - M\IeC {\'o}dulo Consulta Medi\IeC {\c c}\IeC {\~o}es.\relax }}{26}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Caso de Uso - M\IeC {\'o}dulo Gerencia Medi\IeC {\c c}\IeC {\~o}es.\relax }}{27}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces M\IeC {\'o}delo Conceitual - LabInstru Web.\relax }}{28}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces M\IeC {\'o}delo Entidade Relacionamento - LabInstru Web.\relax }}{29}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Tela inicial da aplica\IeC {\c c}\IeC {\~a}o web LabInstru.\relax }}{30}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Prot\IeC {\'o}tipo de tela do menu principal da aplica\IeC {\c c}\IeC {\~a}o.\relax }}{31}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Prot\IeC {\'o}tipo de tela referente ao cadastrado de usu\IeC {\'a}rio.\relax }}{31}
@@ -41,35 +40,8 @@
 \contentsline {figure}{\numberline {3.26}{\ignorespaces P\IeC {\'a}gina referente a edi\IeC {\c c}\IeC {\~a}o de usu\IeC {\'a}rio. Fonte: Pr\IeC {\'o}prio autor.\relax }}{41}
 \contentsline {figure}{\numberline {3.27}{\ignorespaces P\IeC {\'a}gina respons\IeC {\'a}vel por realizar as consultas. Fonte: Pr\IeC {\'o}prio Autor\relax }}{42}
 \contentsline {figure}{\numberline {3.28}{\ignorespaces P\IeC {\'a}gina respons\IeC {\'a}vel por exibir o resultado de uma consulta. Fonte: Pr\IeC {\'o}prio Autor\relax }}{42}
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Modelo referente ao boletim meteorol\IeC {\'o}gico gerado pelo LabInstru Web. Fonte: Pr\IeC {\'o}prio autor.\relax }}{43}
-=======
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Caso de Uso - M\IeC {\'o}dulo Gerencia Conta de Usu\IeC {\'a}rio.\relax }}{25}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Caso de Uso - M\IeC {\'o}dulo Usu\IeC {\'a}rio.\relax }}{25}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Caso de Uso - M\IeC {\'o}dulo Consulta Medi\IeC {\c c}\IeC {\~o}es.\relax }}{26}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Caso de Uso - M\IeC {\'o}dulo Gerencia Medi\IeC {\c c}\IeC {\~o}es.\relax }}{27}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces M\IeC {\'o}delo Conceitual - LabInstru Web.\relax }}{28}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Tela inicial da aplica\IeC {\c c}\IeC {\~a}o web LabInstru.\relax }}{29}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Prot\IeC {\'o}tipo de tela do menu principal da aplica\IeC {\c c}\IeC {\~a}o.\relax }}{30}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Prot\IeC {\'o}tipo de tela referente ao cadastrado de usu\IeC {\'a}rio.\relax }}{30}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Prot\IeC {\'o}tipo de tela referente \IeC {\`a} listagem de usu\IeC {\'a}rios.\relax }}{31}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Prot\IeC {\'o}tipo de tela para cadastro de novas medi\IeC {\c c}\IeC {\~o}es.\relax }}{31}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Prot\IeC {\'o}tipo de tela referente ao formul\IeC {\'a}rio para consultar medi\IeC {\c c}\IeC {\~o}es.\relax }}{32}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Prot\IeC {\'o}tipo de tela referente \IeC {\`a} vis\IeC {\~a}o de sa\IeC {\'\i }da a uma consulta de medi\IeC {\c c}\IeC {\~o}es.\relax }}{32}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Navegando no menu para funcionalidade Disponibilidade.\relax }}{33}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Tela respons\IeC {\'a}vel por exibir o calend\IeC {\'a}rio de disponibilidade.\relax }}{33}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Prot\IeC {\'o}tipo de tela respons\IeC {\'a}vel por mostrar o resultado do boletim meteorol\IeC {\'o}gico.\relax }}{34}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces P\IeC {\'a}gina inicial da aplica\IeC {\c c}\IeC {\~a}o LabInstru Web. Fonte: Pr\IeC {\'o}prio autor.\relax }}{36}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Formul\IeC {\'a}rio de autentica\IeC {\c c}\IeC {\~a}o do sistema. Fonte: Pr\IeC {\'o}prio autor.\relax }}{36}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Formul\IeC {\'a}rio para recupera\IeC {\c c}\IeC {\~a}o de senha. Fonte: Pr\IeC {\'o}prio autor\relax }}{37}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces P\IeC {\'a}gina que disponibiliza o formul\IeC {\'a}rio para inser\IeC {\c c}\IeC {\~a}o de medi\IeC {\c c}\IeC {\~o}es. Fonte: Pr\IeC {\'o}prio autor\relax }}{37}
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Exemplo de \emph {log} informando o resultado de uma inser\IeC {\c c}\IeC {\~a}o de medi\IeC {\c c}\IeC {\~o}es. Fonte: Pr\IeC {\'o}prio autor\relax }}{38}
-\contentsline {figure}{\numberline {3.21}{\ignorespaces P\IeC {\'a}gina de cadastrado de usu\IeC {\'a}rio na plataforma LabInstru Web. Fonte: Pr\IeC {\'o}prio autor.\relax }}{38}
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Lista de usu\IeC {\'a}rios cadastrados na aplica\IeC {\c c}\IeC {\~a}o. Fonte: Pr\IeC {\'o}prio autor.\relax }}{39}
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Exemplos dos menus para diferentes perfis de usu\IeC {\'a}rio. Fonte: Pr\IeC {\'o}prio autor.\relax }}{39}
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Formul\IeC {\'a}rio para troca de senha. Fonte: Pr\IeC {\'o}prio autor.\relax }}{40}
-\contentsline {figure}{\numberline {3.25}{\ignorespaces P\IeC {\'a}gina referente a edi\IeC {\c c}\IeC {\~a}o de usu\IeC {\'a}rio. Fonte: Pr\IeC {\'o}prio autor.\relax }}{40}
-\contentsline {figure}{\numberline {3.26}{\ignorespaces P\IeC {\'a}gina respons\IeC {\'a}vel por realizar as consultas. Fonte: Pr\IeC {\'o}prio Autor\relax }}{41}
-\contentsline {figure}{\numberline {3.27}{\ignorespaces P\IeC {\'a}gina respons\IeC {\'a}vel por exibir o resultado de uma consulta. Fonte: Pr\IeC {\'o}prio Autor\relax }}{41}
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Modelo referente ao boletim meteorol\IeC {\'o}gico gerado pelo LabInstru Web. Fonte: Pr\IeC {\'o}prio autor.\relax }}{42}
->>>>>>> 0e85cada7e845ea0577e1ecd461bcdb6aaeeb6d3
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Exemplo de calend\IeC {\'a}rio resultante da consulta de disponibilidade de medi\IeC {\c c}\IeC {\~o}es. Fonte: Pr\IeC {\'o}prio Autor\relax }}{43}
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Modelo de refer\IeC {\^e}ncia para boletim meteorol\IeC {\'o}gico. Fonte: Pr\IeC {\'o}prio autor.\relax }}{44}
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Boletim meteorol\IeC {\'o}gico produzido pelo LabInstru Web. Fonte: Pr\IeC {\'o}prio autor.\relax }}{44}
+\addvspace {10\p@ }
 \addvspace {10\p@ }

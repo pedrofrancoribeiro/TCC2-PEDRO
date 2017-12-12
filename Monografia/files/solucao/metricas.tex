@@ -1,0 +1,16 @@
+Algumas métricas foram obtidas do software produzido, auxiliando a compreender os esforços necessários ao seu desenvolvimento. Estas métricas são apresentadas a seguir:
+
+\begin{itemize}
+  \item Linhas de código: 7.264 no total, sendo:
+  \begin{itemize}
+    \item Arquivos Python: 1.714 linhas, contemplando conteúdo de linhas de código e comentários presentes em arquivos do tipo \texttt{.py};
+    \item Arquivos HTML: 2.400 linhas, contidas em arquivos \texttt{.html} responsáveis por renderizar as \emph{views} aos usuários;
+    \item Arquivos de estilo: 3.150 linhas, considerando os arquivos \texttt{.css} e comandos Javascript nele incluídos;
+  \end{itemize}
+  \item Funções disponíveis no \emph{Controller}: 28;
+  \item Modelos de dados: 8, respeitando as modelagens conceitual e de entidade-relacionamento realizadas.
+\end{itemize}
+
+É importante salientar que algumas métricas tradicionais, a exemplo do número de classes, são inadequadas no contexto da utilização do \emph{framework} Web2py. O conceito análogo, neste cenário, é o de modelos de dados.  As funções no \emph{Controller}, por exemplo, podem também ser entendidas por meio de uma analogia com \emph{Web services}.
+
+Outro aspecto que merece ser detalhado é número de linhas de código escritas na linguagem Python, em quantidade inferior aos demais tipos presentes. Embora em um primeiro momento possa-se ter a ideia errônea de que esta linguagem de programação teve um papel secundário ou terciário na aplicação produzida, cabe corrigir este pensamento recapitulando o poder de expressividade desta linguagem de programação, em que poucas linhas de código com sintaxe simples e de altíssimo nível podem ter uma semântica complexa, muitas vezes correspondendo à diversas linhas de código em outras linguagens de programação mais tradicionais. De fato, estima-se que, em comparação com as linguagens C, C++ e Java, os códigos produzidos em Python cheguem a ser de $50$ a $70\%$ menores \cite{Lutz:AprendendoPython}. Este baixo número também colabora para um menor dispêndio de tempo na leitura, entendimento e manutenção do código.
